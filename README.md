@@ -50,6 +50,7 @@ pnpm add aws-react-icons
 ## Usage
 
 ```tsx
+// single import
 import AmazonEC2 from 'aws-react-icons/lib/icons/AmazonEC2';
 
 const App = () => {
@@ -59,6 +60,8 @@ const App = () => {
     </div>
   );
 };
+
+export default App;
 ```
 
 OR
@@ -75,6 +78,8 @@ const App = () => {
     </div>
   );
 };
+
+export default App;
 ```
 
 ## Props
