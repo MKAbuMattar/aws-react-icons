@@ -43,7 +43,7 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 
     component = filename.replace('.svg', '');
 
-    importComponent = `import ${component} from 'aws-icons/lib/icons/${component}';`;
+    importComponent = `import ${component} from 'aws-react-icons/lib/icons/${component}';`;
 
     if (fullpath.includes('Architecture-Service-Icons')) {
       categorys.push('Architecture Service');
