@@ -84,9 +84,9 @@ export default App;
 
 ## Props
 
-| Prop name | Type   | Default value | Description           |
-| --------- | ------ | ------------- | --------------------- |
-| size      | number | 1rem          | The size of the icon. |
+| Prop name | Type           | Default value | Description           |
+| --------- | -------------- | ------------- | --------------------- |
+| size      | number/ string | 1rem          | The size of the icon. |
 
 ## License
 
