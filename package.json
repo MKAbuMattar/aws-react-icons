@@ -40,7 +40,7 @@
     "clean:lib": "rm -rf ./lib",
     "download:icons": "npm run clean:aws-icons && npm run clean:icons && npm run clean:svg && tsx ./src/download.ts && npm run clean:aws-icons:macosx",
     "cleanup:icons": "tsx ./src/cleanup.ts",
-    "svg:optmize": "svgo -f svg/ -o icons/",
+    "svg:optmize": "svgo --config svgo.config.js -f svg/ -o icons/",
     "build:script:jsx": "npm run clean:build && tsx ./src/jsx.script.ts",
     "build:lib": "npm run clean:lib && babel build --out-dir lib --copy-files",
     "generate:data": "tsx ./src/generate.data.ts",
