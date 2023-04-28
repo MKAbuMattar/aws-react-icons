@@ -64,18 +64,16 @@ const generateSvgComponent = async (rootDir: string) => {
       svg.removeAttribute('xmlns:xlink');
 
       const svgTemplate = `const React = require("react");
-module.exports = function ${reactName}({size = "1rem", ...props}){
+module.exports = function ${reactName}({size = "24", ...props}){
   props = {
     ...props,
     style: {
       ...(props.style ? props.style : {}),
-      width: size,
-      height: size
     }
   }
   return (${(await svgtojsx(svg.outerHTML)).replace(
     '<svg',
-    '<svg {...props}',
+    '<svg {...props} width={size} height={size}',
   )});
 }`;
 
