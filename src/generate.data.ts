@@ -22,10 +22,20 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
   let categorys: string[] = [];
   let obj: Data;
 
+  let prefix = '';
+
   files.forEach((file) => {
     const { fullpath, filename } = file;
 
-    name = filename
+    if (fullpath.includes('Architecture-Service-Icons')) {
+      prefix = 'Architecture';
+    } else if (fullpath.includes('Category-Icons')) {
+      prefix = 'Category';
+    } else if (fullpath.includes('Resource-Icons')) {
+      prefix = 'Resource';
+    }
+
+    name = `${prefix} ${filename
       .replace(/([A-Z]+)(?=[A-Z][a-z0-9])/g, (match) =>
         match.length > 1 ? match.charAt(0) + match.slice(1) + ' ' : match,
       )
@@ -39,9 +49,9 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
       .replace('RA 3', 'RA3')
       .replace('EC2', 'EC2 ')
       .replace('Lo Ra WAN', 'LoRaWAN')
-      .trim();
+      .trim()}`;
 
-    component = filename.replace('.svg', '');
+    component = `${prefix}${filename.replace('.svg', '')}`;
 
     importComponent = `import ${component} from 'aws-react-icons/lib/icons/${component}';`;
 
