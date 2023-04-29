@@ -5,7 +5,7 @@
 
   <h1>AWS React Icons</h1>
 
-<a href="https://aws-react-icon.vercel.app/">https://aws-icon.vercel.app/</a>
+<a href="https://aws-icon.vercel.app/">https://aws-icon.vercel.app/</a>
 
   <br/>
 
@@ -34,7 +34,7 @@
   </a>
 </div>
 
-## Install package
+## 📦 Install package
 
 ```bash
 #npm
@@ -47,7 +47,7 @@ yarn add aws-react-icons
 pnpm add aws-react-icons
 ```
 
-## Usage
+## 📖 Usage
 
 ```tsx
 // single import
@@ -82,12 +82,16 @@ const App = () => {
 export default App;
 ```
 
-## Props
+## 📚 Icons Props
 
 | Prop name | Type           | Default value | Description           |
 | --------- | -------------- | ------------- | --------------------- |
 | size      | number/ string | 24            | The size of the icon. |
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📜 Credits
+
+- [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)

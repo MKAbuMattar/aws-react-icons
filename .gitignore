@@ -5,7 +5,6 @@ build
 icons
 lib
 svg
-build.config.json
 downloadedFile.zip
 
 # .log files
