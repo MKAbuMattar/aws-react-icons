@@ -75,6 +75,7 @@ async function renameFiles(mainDir: string): Promise<void> {
 
 async function copySvgFilesToIconsDirectory(mainDir: string): Promise<void> {
   const iconsDir = path.join(process.cwd(), 'svg');
+  let prefix = '';
 
   // Create the icons directory if it doesn't exist
   if (!fs.existsSync(iconsDir)) {
@@ -88,10 +89,19 @@ async function copySvgFilesToIconsDirectory(mainDir: string): Promise<void> {
   for (const entry of dirEntries) {
     const entryPath = path.join(mainDir, entry.name);
 
+    if (entryPath.includes('Architecture-Service-Icons')) {
+      prefix = 'Architecture';
+    } else if (entryPath.includes('Category-Icons')) {
+      prefix = 'Category';
+    } else if (entryPath.includes('Resource-Icons')) {
+      prefix = 'Resource';
+    }
+
     if (entry.isDirectory()) {
       await copySvgFilesToIconsDirectory(entryPath);
     } else if (path.extname(entryPath).toLowerCase() === '.svg') {
-      const targetPath = path.join(iconsDir, entry.name);
+      const targetPath = path.join(iconsDir, `${prefix}${entry.name}`);
+
       await fs.promises.copyFile(entryPath, targetPath);
       console.log(`Copied file: ${entryPath} to ${targetPath}`);
     }

@@ -51,12 +51,12 @@ pnpm add aws-react-icons
 
 ```tsx
 // single import
-import AmazonEC2 from 'aws-react-icons/lib/icons/AmazonEC2';
+import ArchitectureAmazonEC2 from 'aws-react-icons/lib/icons/ArchitectureAmazonEC2';
 
 const App = () => {
   return (
     <div>
-      <AmazonEC2 size={30} />
+      <ArchitectureAmazonEC2 size={30} />
     </div>
   );
 };
@@ -68,13 +68,16 @@ OR
 
 ```tsx
 // multiple imports
-import { AmazonEC2, AWSCloudFormation } from 'aws-react-icons';
+import {
+  ArchitectureAmazonEC2,
+  ArchitectureAWSCloudFormation,
+} from 'aws-react-icons';
 
 const App = () => {
   return (
     <div>
-      <AmazonEC2 size={30} />
-      <AWSCloudFormation size={30} />
+      <ArchitectureAmazonEC2 size={30} />
+      <ArchitectureAWSCloudFormation size={30} />
     </div>
   );
 };
