@@ -64,18 +64,18 @@
       ]
     },
     {
-      "name": "Architecture Amazon Kinesis Data Streams",
-      "component": "ArchitectureAmazonKinesisDataStreams",
-      "importComponent": "import ArchitectureAmazonKinesisDataStreams from 'aws-react-icons/lib/icons/ArchitectureAmazonKinesisDataStreams';",
+      "name": "Architecture Amazon Kinesis Data Firehose",
+      "component": "ArchitectureAmazonKinesisDataFirehose",
+      "importComponent": "import ArchitectureAmazonKinesisDataFirehose from 'aws-react-icons/lib/icons/ArchitectureAmazonKinesisDataFirehose';",
       "categorys": [
         "Architecture Service",
         "Analytics"
       ]
     },
     {
-      "name": "Architecture Amazon Kinesis Firehose",
-      "component": "ArchitectureAmazonKinesisFirehose",
-      "importComponent": "import ArchitectureAmazonKinesisFirehose from 'aws-react-icons/lib/icons/ArchitectureAmazonKinesisFirehose';",
+      "name": "Architecture Amazon Kinesis Data Streams",
+      "component": "ArchitectureAmazonKinesisDataStreams",
+      "importComponent": "import ArchitectureAmazonKinesisDataStreams from 'aws-react-icons/lib/icons/ArchitectureAmazonKinesisDataStreams';",
       "categorys": [
         "Architecture Service",
         "Analytics"
@@ -334,15 +334,6 @@
       ]
     },
     {
-      "name": "Architecture Amazon Chime Voice Connector",
-      "component": "ArchitectureAmazonChimeVoiceConnector",
-      "importComponent": "import ArchitectureAmazonChimeVoiceConnector from 'aws-react-icons/lib/icons/ArchitectureAmazonChimeVoiceConnector';",
-      "categorys": [
-        "Architecture Service",
-        "Business Applications"
-      ]
-    },
-    {
       "name": "Architecture Amazon Connect",
       "component": "ArchitectureAmazonConnect",
       "importComponent": "import ArchitectureAmazonConnect from 'aws-react-icons/lib/icons/ArchitectureAmazonConnect';",
@@ -523,51 +514,6 @@
       ]
     },
     {
-      "name": "Architecture Amazon EC2 M5n",
-      "component": "ArchitectureAmazonEC2M5n",
-      "importComponent": "import ArchitectureAmazonEC2M5n from 'aws-react-icons/lib/icons/ArchitectureAmazonEC2M5n';",
-      "categorys": [
-        "Architecture Service",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Architecture Amazon EC2 R5n",
-      "component": "ArchitectureAmazonEC2R5n",
-      "importComponent": "import ArchitectureAmazonEC2R5n from 'aws-react-icons/lib/icons/ArchitectureAmazonEC2R5n';",
-      "categorys": [
-        "Architecture Service",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Architecture Amazon Elastic Container Kubernetes",
-      "component": "ArchitectureAmazonElasticContainerKubernetes",
-      "importComponent": "import ArchitectureAmazonElasticContainerKubernetes from 'aws-react-icons/lib/icons/ArchitectureAmazonElasticContainerKubernetes';",
-      "categorys": [
-        "Architecture Service",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Architecture Amazon Elastic Container Registry",
-      "component": "ArchitectureAmazonElasticContainerRegistry",
-      "importComponent": "import ArchitectureAmazonElasticContainerRegistry from 'aws-react-icons/lib/icons/ArchitectureAmazonElasticContainerRegistry';",
-      "categorys": [
-        "Architecture Service",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Architecture Amazon Elastic Container Service",
-      "component": "ArchitectureAmazonElasticContainerService",
-      "importComponent": "import ArchitectureAmazonElasticContainerService from 'aws-react-icons/lib/icons/ArchitectureAmazonElasticContainerService';",
-      "categorys": [
-        "Architecture Service",
-        "Compute"
-      ]
-    },
-    {
       "name": "Architecture Amazon Genomics CLI",
       "component": "ArchitectureAmazonGenomicsCLI",
       "importComponent": "import ArchitectureAmazonGenomicsCLI from 'aws-react-icons/lib/icons/ArchitectureAmazonGenomicsCLI';",
@@ -580,6 +526,15 @@
       "name": "Architecture Amazon Lightsail",
       "component": "ArchitectureAmazonLightsail",
       "importComponent": "import ArchitectureAmazonLightsail from 'aws-react-icons/lib/icons/ArchitectureAmazonLightsail';",
+      "categorys": [
+        "Architecture Service",
+        "Compute"
+      ]
+    },
+    {
+      "name": "Architecture Amazon Lightsailfor Research",
+      "component": "ArchitectureAmazonLightsailforResearch",
+      "importComponent": "import ArchitectureAmazonLightsailforResearch from 'aws-react-icons/lib/icons/ArchitectureAmazonLightsailforResearch';",
       "categorys": [
         "Architecture Service",
         "Compute"
@@ -616,15 +571,6 @@
       "name": "Architecture AWS Elastic Beanstalk",
       "component": "ArchitectureAWSElasticBeanstalk",
       "importComponent": "import ArchitectureAWSElasticBeanstalk from 'aws-react-icons/lib/icons/ArchitectureAWSElasticBeanstalk';",
-      "categorys": [
-        "Architecture Service",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Architecture AWS Fargate",
-      "component": "ArchitectureAWSFargate",
-      "importComponent": "import ArchitectureAWSFargate from 'aws-react-icons/lib/icons/ArchitectureAWSFargate';",
       "categorys": [
         "Architecture Service",
         "Compute"
@@ -937,9 +883,9 @@
       ]
     },
     {
-      "name": "Architecture AW Sre Post",
-      "component": "ArchitectureAWSrePost",
-      "importComponent": "import ArchitectureAWSrePost from 'aws-react-icons/lib/icons/ArchitectureAWSrePost';",
+      "name": "Architecture AW Sre:Post",
+      "component": "ArchitectureAWSre:Post",
+      "importComponent": "import ArchitectureAWSre:Post from 'aws-react-icons/lib/icons/ArchitectureAWSre:Post';",
       "categorys": [
         "Architecture Service",
         "Customer Enablement"
@@ -1926,6 +1872,15 @@
       ]
     },
     {
+      "name": "Architecture AWS Health Dashboard",
+      "component": "ArchitectureAWSHealthDashboard",
+      "importComponent": "import ArchitectureAWSHealthDashboard from 'aws-react-icons/lib/icons/ArchitectureAWSHealthDashboard';",
+      "categorys": [
+        "Architecture Service",
+        "Management Governance"
+      ]
+    },
+    {
       "name": "Architecture AWS Launch Wizard",
       "component": "ArchitectureAWSLaunchWizard",
       "importComponent": "import ArchitectureAWSLaunchWizard from 'aws-react-icons/lib/icons/ArchitectureAWSLaunchWizard';",
@@ -1965,15 +1920,6 @@
       "name": "Architecture AWS Organizations",
       "component": "ArchitectureAWSOrganizations",
       "importComponent": "import ArchitectureAWSOrganizations from 'aws-react-icons/lib/icons/ArchitectureAWSOrganizations';",
-      "categorys": [
-        "Architecture Service",
-        "Management Governance"
-      ]
-    },
-    {
-      "name": "Architecture AWS Personal Health Dashboard",
-      "component": "ArchitectureAWSPersonalHealthDashboard",
-      "importComponent": "import ArchitectureAWSPersonalHealthDashboard from 'aws-react-icons/lib/icons/ArchitectureAWSPersonalHealthDashboard';",
       "categorys": [
         "Architecture Service",
         "Management Governance"
@@ -2028,6 +1974,15 @@
       "name": "Architecture AWS Systems Manager",
       "component": "ArchitectureAWSSystemsManager",
       "importComponent": "import ArchitectureAWSSystemsManager from 'aws-react-icons/lib/icons/ArchitectureAWSSystemsManager';",
+      "categorys": [
+        "Architecture Service",
+        "Management Governance"
+      ]
+    },
+    {
+      "name": "Architecture AWS Telco Network Builder",
+      "component": "ArchitectureAWSTelcoNetworkBuilder",
+      "importComponent": "import ArchitectureAWSTelcoNetworkBuilder from 'aws-react-icons/lib/icons/ArchitectureAWSTelcoNetworkBuilder';",
       "categorys": [
         "Architecture Service",
         "Management Governance"
@@ -2250,30 +2205,12 @@
       ]
     },
     {
-      "name": "Architecture AWS Server Migration Service",
-      "component": "ArchitectureAWSServerMigrationService",
-      "importComponent": "import ArchitectureAWSServerMigrationService from 'aws-react-icons/lib/icons/ArchitectureAWSServerMigrationService';",
-      "categorys": [
-        "Architecture Service",
-        "Migration Transfer"
-      ]
-    },
-    {
       "name": "Architecture AWS Transfer Family",
       "component": "ArchitectureAWSTransferFamily",
       "importComponent": "import ArchitectureAWSTransferFamily from 'aws-react-icons/lib/icons/ArchitectureAWSTransferFamily';",
       "categorys": [
         "Architecture Service",
         "Migration Transfer"
-      ]
-    },
-    {
-      "name": "Architecture Amazon Cloud Directory",
-      "component": "ArchitectureAmazonCloudDirectory",
-      "importComponent": "import ArchitectureAmazonCloudDirectory from 'aws-react-icons/lib/icons/ArchitectureAmazonCloudDirectory';",
-      "categorys": [
-        "Architecture Service",
-        "Networking Content Delivery"
       ]
     },
     {
@@ -2835,15 +2772,6 @@
       ]
     },
     {
-      "name": "Architecture Amazon Sumerian",
-      "component": "ArchitectureAmazonSumerian",
-      "importComponent": "import ArchitectureAmazonSumerian from 'aws-react-icons/lib/icons/ArchitectureAmazonSumerian';",
-      "categorys": [
-        "Architecture Service",
-        "VR AR"
-      ]
-    },
-    {
       "name": "Category Analytics",
       "component": "CategoryAnalytics",
       "importComponent": "import CategoryAnalytics from 'aws-react-icons/lib/icons/CategoryAnalytics';",
@@ -2895,6 +2823,15 @@
       "categorys": [
         "Category",
         "Category Compute"
+      ]
+    },
+    {
+      "name": "Category Contact Center",
+      "component": "CategoryContactCenter",
+      "importComponent": "import CategoryContactCenter from 'aws-react-icons/lib/icons/CategoryContactCenter';",
+      "categorys": [
+        "Category",
+        "Category Contact Center"
       ]
     },
     {
@@ -3069,15 +3006,6 @@
       ]
     },
     {
-      "name": "Category VRAR",
-      "component": "CategoryVRAR",
-      "importComponent": "import CategoryVRAR from 'aws-react-icons/lib/icons/CategoryVRAR';",
-      "categorys": [
-        "Category",
-        "Category VRAR"
-      ]
-    },
-    {
       "name": "Resource Amazon Athena Data Source Connectors",
       "component": "ResourceAmazonAthenaDataSourceConnectors",
       "importComponent": "import ResourceAmazonAthenaDataSourceConnectors from 'aws-react-icons/lib/icons/ResourceAmazonAthenaDataSourceConnectors';",
@@ -3180,6 +3108,33 @@
       "name": "Resource Amazon Open Search Service Index",
       "component": "ResourceAmazonOpenSearchServiceIndex",
       "importComponent": "import ResourceAmazonOpenSearchServiceIndex from 'aws-react-icons/lib/icons/ResourceAmazonOpenSearchServiceIndex';",
+      "categorys": [
+        "Resource",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "Resource Amazon Open Search Service Observability",
+      "component": "ResourceAmazonOpenSearchServiceObservability",
+      "importComponent": "import ResourceAmazonOpenSearchServiceObservability from 'aws-react-icons/lib/icons/ResourceAmazonOpenSearchServiceObservability';",
+      "categorys": [
+        "Resource",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "Resource Amazon Open Search Service Open Search Dashboards",
+      "component": "ResourceAmazonOpenSearchServiceOpenSearchDashboards",
+      "importComponent": "import ResourceAmazonOpenSearchServiceOpenSearchDashboards from 'aws-react-icons/lib/icons/ResourceAmazonOpenSearchServiceOpenSearchDashboards';",
+      "categorys": [
+        "Resource",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "Resource Amazon Open Search Service Traces",
+      "component": "ResourceAmazonOpenSearchServiceTraces",
+      "importComponent": "import ResourceAmazonOpenSearchServiceTraces from 'aws-react-icons/lib/icons/ResourceAmazonOpenSearchServiceTraces';",
       "categorys": [
         "Resource",
         "Analytics"
@@ -3501,15 +3456,6 @@
       ]
     },
     {
-      "name": "Resource Amazon EC2 A1Instance",
-      "component": "ResourceAmazonEC2A1Instance",
-      "importComponent": "import ResourceAmazonEC2A1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2A1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
       "name": "Resource Amazon EC2 AMI",
       "component": "ResourceAmazonEC2AMI",
       "importComponent": "import ResourceAmazonEC2AMI from 'aws-react-icons/lib/icons/ResourceAmazonEC2AMI';",
@@ -3528,171 +3474,9 @@
       ]
     },
     {
-      "name": "Resource Amazon EC2 AWS Inferentia",
-      "component": "ResourceAmazonEC2AWSInferentia",
-      "importComponent": "import ResourceAmazonEC2AWSInferentia from 'aws-react-icons/lib/icons/ResourceAmazonEC2AWSInferentia';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
       "name": "Resource Amazon EC2 AWS Microservice Extractorfor NET",
       "component": "ResourceAmazonEC2AWSMicroserviceExtractorforNET",
       "importComponent": "import ResourceAmazonEC2AWSMicroserviceExtractorforNET from 'aws-react-icons/lib/icons/ResourceAmazonEC2AWSMicroserviceExtractorforNET';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C4Instance",
-      "component": "ResourceAmazonEC2C4Instance",
-      "importComponent": "import ResourceAmazonEC2C4Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C4Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C5ad Instance",
-      "component": "ResourceAmazonEC2C5adInstance",
-      "importComponent": "import ResourceAmazonEC2C5adInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C5adInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C5a Instance",
-      "component": "ResourceAmazonEC2C5aInstance",
-      "importComponent": "import ResourceAmazonEC2C5aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C5aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C5d Instance",
-      "component": "ResourceAmazonEC2C5dInstance",
-      "importComponent": "import ResourceAmazonEC2C5dInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C5dInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C5Instance",
-      "component": "ResourceAmazonEC2C5Instance",
-      "importComponent": "import ResourceAmazonEC2C5Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C5Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C5n Instance",
-      "component": "ResourceAmazonEC2C5nInstance",
-      "importComponent": "import ResourceAmazonEC2C5nInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C5nInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C6a Instance",
-      "component": "ResourceAmazonEC2C6aInstance",
-      "importComponent": "import ResourceAmazonEC2C6aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C6aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C6gd Instance",
-      "component": "ResourceAmazonEC2C6gdInstance",
-      "importComponent": "import ResourceAmazonEC2C6gdInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C6gdInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C6g Instance",
-      "component": "ResourceAmazonEC2C6gInstance",
-      "importComponent": "import ResourceAmazonEC2C6gInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C6gInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C6gn Instance",
-      "component": "ResourceAmazonEC2C6gnInstance",
-      "importComponent": "import ResourceAmazonEC2C6gnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C6gnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C6i Instance",
-      "component": "ResourceAmazonEC2C6iInstance",
-      "importComponent": "import ResourceAmazonEC2C6iInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C6iInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C6in Instance",
-      "component": "ResourceAmazonEC2C6inInstance",
-      "importComponent": "import ResourceAmazonEC2C6inInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C6inInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C7g Instance",
-      "component": "ResourceAmazonEC2C7gInstance",
-      "importComponent": "import ResourceAmazonEC2C7gInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C7gInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 C7gn Instance",
-      "component": "ResourceAmazonEC2C7gnInstance",
-      "importComponent": "import ResourceAmazonEC2C7gnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2C7gnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 D2Instance",
-      "component": "ResourceAmazonEC2D2Instance",
-      "importComponent": "import ResourceAmazonEC2D2Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2D2Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 D3en Instance",
-      "component": "ResourceAmazonEC2D3enInstance",
-      "importComponent": "import ResourceAmazonEC2D3enInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2D3enInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 D3Instance",
-      "component": "ResourceAmazonEC2D3Instance",
-      "importComponent": "import ResourceAmazonEC2D3Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2D3Instance';",
       "categorys": [
         "Resource",
         "Compute"
@@ -3708,180 +3492,9 @@
       ]
     },
     {
-      "name": "Resource Amazon EC2 DL1Instance",
-      "component": "ResourceAmazonEC2DL1Instance",
-      "importComponent": "import ResourceAmazonEC2DL1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2DL1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
       "name": "Resource Amazon EC2 Elastic IP Address",
       "component": "ResourceAmazonEC2ElasticIPAddress",
       "importComponent": "import ResourceAmazonEC2ElasticIPAddress from 'aws-react-icons/lib/icons/ResourceAmazonEC2ElasticIPAddress';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 F1Instance",
-      "component": "ResourceAmazonEC2F1Instance",
-      "importComponent": "import ResourceAmazonEC2F1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2F1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 G3Instance",
-      "component": "ResourceAmazonEC2G3Instance",
-      "importComponent": "import ResourceAmazonEC2G3Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2G3Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 G4ad Instance",
-      "component": "ResourceAmazonEC2G4adInstance",
-      "importComponent": "import ResourceAmazonEC2G4adInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2G4adInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 G4dn Instance",
-      "component": "ResourceAmazonEC2G4dnInstance",
-      "importComponent": "import ResourceAmazonEC2G4dnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2G4dnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 G5g Instance",
-      "component": "ResourceAmazonEC2G5gInstance",
-      "importComponent": "import ResourceAmazonEC2G5gInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2G5gInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 G5Instance",
-      "component": "ResourceAmazonEC2G5Instance",
-      "importComponent": "import ResourceAmazonEC2G5Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2G5Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 H1Instance",
-      "component": "ResourceAmazonEC2H1Instance",
-      "importComponent": "import ResourceAmazonEC2H1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2H1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Habana Gaudi Instance",
-      "component": "ResourceAmazonEC2HabanaGaudiInstance",
-      "importComponent": "import ResourceAmazonEC2HabanaGaudiInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2HabanaGaudiInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 HMI Instance",
-      "component": "ResourceAmazonEC2HMIInstance",
-      "importComponent": "import ResourceAmazonEC2HMIInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2HMIInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Hpc6a Instance",
-      "component": "ResourceAmazonEC2Hpc6aInstance",
-      "importComponent": "import ResourceAmazonEC2Hpc6aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2Hpc6aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Hpc6id Instance",
-      "component": "ResourceAmazonEC2Hpc6idInstance",
-      "importComponent": "import ResourceAmazonEC2Hpc6idInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2Hpc6idInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 I2Instance",
-      "component": "ResourceAmazonEC2I2Instance",
-      "importComponent": "import ResourceAmazonEC2I2Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2I2Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 I3en Instance",
-      "component": "ResourceAmazonEC2I3enInstance",
-      "importComponent": "import ResourceAmazonEC2I3enInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2I3enInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 I3Instance",
-      "component": "ResourceAmazonEC2I3Instance",
-      "importComponent": "import ResourceAmazonEC2I3Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2I3Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 I4i Instance",
-      "component": "ResourceAmazonEC2I4iInstance",
-      "importComponent": "import ResourceAmazonEC2I4iInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2I4iInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Im4gn Instance",
-      "component": "ResourceAmazonEC2Im4gnInstance",
-      "importComponent": "import ResourceAmazonEC2Im4gnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2Im4gnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Inf1Instance",
-      "component": "ResourceAmazonEC2Inf1Instance",
-      "importComponent": "import ResourceAmazonEC2Inf1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2Inf1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Inf2Instance",
-      "component": "ResourceAmazonEC2Inf2Instance",
-      "importComponent": "import ResourceAmazonEC2Inf2Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2Inf2Instance';",
       "categorys": [
         "Resource",
         "Compute"
@@ -3915,321 +3528,6 @@
       ]
     },
     {
-      "name": "Resource Amazon EC2 Is4gen Instance",
-      "component": "ResourceAmazonEC2Is4genInstance",
-      "importComponent": "import ResourceAmazonEC2Is4genInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2Is4genInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M1Mac Instance",
-      "component": "ResourceAmazonEC2M1MacInstance",
-      "importComponent": "import ResourceAmazonEC2M1MacInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M1MacInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M4Instance",
-      "component": "ResourceAmazonEC2M4Instance",
-      "importComponent": "import ResourceAmazonEC2M4Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M4Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M5a Instance",
-      "component": "ResourceAmazonEC2M5aInstance",
-      "importComponent": "import ResourceAmazonEC2M5aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M5aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M5d Instance",
-      "component": "ResourceAmazonEC2M5dInstance",
-      "importComponent": "import ResourceAmazonEC2M5dInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M5dInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M5dn Instance",
-      "component": "ResourceAmazonEC2M5dnInstance",
-      "importComponent": "import ResourceAmazonEC2M5dnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M5dnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M5Instance",
-      "component": "ResourceAmazonEC2M5Instance",
-      "importComponent": "import ResourceAmazonEC2M5Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M5Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M5n Instance",
-      "component": "ResourceAmazonEC2M5nInstance",
-      "importComponent": "import ResourceAmazonEC2M5nInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M5nInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M5zn Instance",
-      "component": "ResourceAmazonEC2M5znInstance",
-      "importComponent": "import ResourceAmazonEC2M5znInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M5znInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M6a Instance",
-      "component": "ResourceAmazonEC2M6aInstance",
-      "importComponent": "import ResourceAmazonEC2M6aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M6aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M6gd Instance",
-      "component": "ResourceAmazonEC2M6gdInstance",
-      "importComponent": "import ResourceAmazonEC2M6gdInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M6gdInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M6g Instance",
-      "component": "ResourceAmazonEC2M6gInstance",
-      "importComponent": "import ResourceAmazonEC2M6gInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M6gInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M6idn Instance",
-      "component": "ResourceAmazonEC2M6idnInstance",
-      "importComponent": "import ResourceAmazonEC2M6idnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M6idnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M6i Instance",
-      "component": "ResourceAmazonEC2M6iInstance",
-      "importComponent": "import ResourceAmazonEC2M6iInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M6iInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 M6in Instance",
-      "component": "ResourceAmazonEC2M6inInstance",
-      "importComponent": "import ResourceAmazonEC2M6inInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2M6inInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Mac Instance",
-      "component": "ResourceAmazonEC2MacInstance",
-      "importComponent": "import ResourceAmazonEC2MacInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2MacInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 P2Instance",
-      "component": "ResourceAmazonEC2P2Instance",
-      "importComponent": "import ResourceAmazonEC2P2Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2P2Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 P3dn Instance",
-      "component": "ResourceAmazonEC2P3dnInstance",
-      "importComponent": "import ResourceAmazonEC2P3dnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2P3dnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 P3Instance",
-      "component": "ResourceAmazonEC2P3Instance",
-      "importComponent": "import ResourceAmazonEC2P3Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2P3Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 P4de Instance",
-      "component": "ResourceAmazonEC2P4deInstance",
-      "importComponent": "import ResourceAmazonEC2P4deInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2P4deInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 P4d Instance",
-      "component": "ResourceAmazonEC2P4dInstance",
-      "importComponent": "import ResourceAmazonEC2P4dInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2P4dInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 P4Instance",
-      "component": "ResourceAmazonEC2P4Instance",
-      "importComponent": "import ResourceAmazonEC2P4Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2P4Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R4Instance",
-      "component": "ResourceAmazonEC2R4Instance",
-      "importComponent": "import ResourceAmazonEC2R4Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R4Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R5ad Instance",
-      "component": "ResourceAmazonEC2R5adInstance",
-      "importComponent": "import ResourceAmazonEC2R5adInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R5adInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R5a Instance",
-      "component": "ResourceAmazonEC2R5aInstance",
-      "importComponent": "import ResourceAmazonEC2R5aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R5aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R5b Instance",
-      "component": "ResourceAmazonEC2R5bInstance",
-      "importComponent": "import ResourceAmazonEC2R5bInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R5bInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R5gd Instance",
-      "component": "ResourceAmazonEC2R5gdInstance",
-      "importComponent": "import ResourceAmazonEC2R5gdInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R5gdInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R5Instance",
-      "component": "ResourceAmazonEC2R5Instance",
-      "importComponent": "import ResourceAmazonEC2R5Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R5Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R5n Instance",
-      "component": "ResourceAmazonEC2R5nInstance",
-      "importComponent": "import ResourceAmazonEC2R5nInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R5nInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R6a Instance",
-      "component": "ResourceAmazonEC2R6aInstance",
-      "importComponent": "import ResourceAmazonEC2R6aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R6aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R6g Instance",
-      "component": "ResourceAmazonEC2R6gInstance",
-      "importComponent": "import ResourceAmazonEC2R6gInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R6gInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R6idn Instance",
-      "component": "ResourceAmazonEC2R6idnInstance",
-      "importComponent": "import ResourceAmazonEC2R6idnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R6idnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R6i Instance",
-      "component": "ResourceAmazonEC2R6iInstance",
-      "importComponent": "import ResourceAmazonEC2R6iInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R6iInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R6in Instance",
-      "component": "ResourceAmazonEC2R6inInstance",
-      "importComponent": "import ResourceAmazonEC2R6inInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R6inInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 R7iz Instance",
-      "component": "ResourceAmazonEC2R7izInstance",
-      "importComponent": "import ResourceAmazonEC2R7izInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2R7izInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
       "name": "Resource Amazon EC2 Rescue",
       "component": "ResourceAmazonEC2Rescue",
       "importComponent": "import ResourceAmazonEC2Rescue from 'aws-react-icons/lib/icons/ResourceAmazonEC2Rescue';",
@@ -4242,132 +3540,6 @@
       "name": "Resource Amazon EC2 Spot Instance",
       "component": "ResourceAmazonEC2SpotInstance",
       "importComponent": "import ResourceAmazonEC2SpotInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2SpotInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 T2Instance",
-      "component": "ResourceAmazonEC2T2Instance",
-      "importComponent": "import ResourceAmazonEC2T2Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2T2Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 T3a Instance",
-      "component": "ResourceAmazonEC2T3aInstance",
-      "importComponent": "import ResourceAmazonEC2T3aInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2T3aInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 T3Instance",
-      "component": "ResourceAmazonEC2T3Instance",
-      "importComponent": "import ResourceAmazonEC2T3Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2T3Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 T4g Instance",
-      "component": "ResourceAmazonEC2T4gInstance",
-      "importComponent": "import ResourceAmazonEC2T4gInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2T4gInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Trainium Instance",
-      "component": "ResourceAmazonEC2TrainiumInstance",
-      "importComponent": "import ResourceAmazonEC2TrainiumInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2TrainiumInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 Trn1Instance",
-      "component": "ResourceAmazonEC2Trn1Instance",
-      "importComponent": "import ResourceAmazonEC2Trn1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2Trn1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 VT1Instance",
-      "component": "ResourceAmazonEC2VT1Instance",
-      "importComponent": "import ResourceAmazonEC2VT1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2VT1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 X1e Instance",
-      "component": "ResourceAmazonEC2X1eInstance",
-      "importComponent": "import ResourceAmazonEC2X1eInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2X1eInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 X1Instance",
-      "component": "ResourceAmazonEC2X1Instance",
-      "importComponent": "import ResourceAmazonEC2X1Instance from 'aws-react-icons/lib/icons/ResourceAmazonEC2X1Instance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 X2gd Instance",
-      "component": "ResourceAmazonEC2X2gdInstance",
-      "importComponent": "import ResourceAmazonEC2X2gdInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2X2gdInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 X2idn Instance",
-      "component": "ResourceAmazonEC2X2idnInstance",
-      "importComponent": "import ResourceAmazonEC2X2idnInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2X2idnInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 X2iedn Instance",
-      "component": "ResourceAmazonEC2X2iednInstance",
-      "importComponent": "import ResourceAmazonEC2X2iednInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2X2iednInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 X2iezn Instance",
-      "component": "ResourceAmazonEC2X2ieznInstance",
-      "importComponent": "import ResourceAmazonEC2X2ieznInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2X2ieznInstance';",
-      "categorys": [
-        "Resource",
-        "Compute"
-      ]
-    },
-    {
-      "name": "Resource Amazon EC2 z1d Instance",
-      "component": "ResourceAmazonEC2z1dInstance",
-      "importComponent": "import ResourceAmazonEC2z1dInstance from 'aws-react-icons/lib/icons/ResourceAmazonEC2z1dInstance';",
       "categorys": [
         "Resource",
         "Compute"
@@ -4446,18 +3618,9 @@
       ]
     },
     {
-      "name": "Resource Amazon Elastic Container Service Copilot CLI",
-      "component": "ResourceAmazonElasticContainerServiceCopilotCLI",
-      "importComponent": "import ResourceAmazonElasticContainerServiceCopilotCLI from 'aws-react-icons/lib/icons/ResourceAmazonElasticContainerServiceCopilotCLI';",
-      "categorys": [
-        "Resource",
-        "Containers"
-      ]
-    },
-    {
-      "name": "Resource Amazon Elastic Container Service ECS Anywhere",
-      "component": "ResourceAmazonElasticContainerServiceECSAnywhere",
-      "importComponent": "import ResourceAmazonElasticContainerServiceECSAnywhere from 'aws-react-icons/lib/icons/ResourceAmazonElasticContainerServiceECSAnywhere';",
+      "name": "Resource Amazon Elastic Container Service Copi IoT CLI",
+      "component": "ResourceAmazonElasticContainerServiceCopiIoTCLI",
+      "importComponent": "import ResourceAmazonElasticContainerServiceCopiIoTCLI from 'aws-react-icons/lib/icons/ResourceAmazonElasticContainerServiceCopiIoTCLI';",
       "categorys": [
         "Resource",
         "Containers"
@@ -4629,6 +3792,15 @@
       "name": "Resource Amazon Aurora SQL Server Instance Alternate",
       "component": "ResourceAmazonAuroraSQLServerInstanceAlternate",
       "importComponent": "import ResourceAmazonAuroraSQLServerInstanceAlternate from 'aws-react-icons/lib/icons/ResourceAmazonAuroraSQLServerInstanceAlternate';",
+      "categorys": [
+        "Resource",
+        "Database"
+      ]
+    },
+    {
+      "name": "Resource Amazon Aurora Trusted Language Extensionsfor Postgre SQL",
+      "component": "ResourceAmazonAuroraTrustedLanguageExtensionsforPostgreSQL",
+      "importComponent": "import ResourceAmazonAuroraTrustedLanguageExtensionsforPostgreSQL from 'aws-react-icons/lib/icons/ResourceAmazonAuroraTrustedLanguageExtensionsforPostgreSQL';",
       "categorys": [
         "Resource",
         "Database"
@@ -4824,9 +3996,9 @@
       ]
     },
     {
-      "name": "Resource AWS Database Migration Service Databasemigrationworkflowjob",
-      "component": "ResourceAWSDatabaseMigrationServiceDatabasemigrationworkflowjob",
-      "importComponent": "import ResourceAWSDatabaseMigrationServiceDatabasemigrationworkflowjob from 'aws-react-icons/lib/icons/ResourceAWSDatabaseMigrationServiceDatabasemigrationworkflowjob';",
+      "name": "Resource AWS Database Migration Service Databasemigrationworkfloworjob",
+      "component": "ResourceAWSDatabaseMigrationServiceDatabasemigrationworkfloworjob",
+      "importComponent": "import ResourceAWSDatabaseMigrationServiceDatabasemigrationworkfloworjob from 'aws-react-icons/lib/icons/ResourceAWSDatabaseMigrationServiceDatabasemigrationworkfloworjob';",
       "categorys": [
         "Resource",
         "Database",
@@ -4933,6 +4105,15 @@
       ]
     },
     {
+      "name": "Resource Authenticated User",
+      "component": "ResourceAuthenticatedUser",
+      "importComponent": "import ResourceAuthenticatedUser from 'aws-react-icons/lib/icons/ResourceAuthenticatedUser';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
       "name": "Resource AWS Management Console",
       "component": "ResourceAWSManagementConsole",
       "importComponent": "import ResourceAWSManagementConsole from 'aws-react-icons/lib/icons/ResourceAWSManagementConsole';",
@@ -4963,6 +4144,51 @@
       "name": "Resource Client",
       "component": "ResourceClient",
       "importComponent": "import ResourceClient from 'aws-react-icons/lib/icons/ResourceClient';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Cold Storage",
+      "component": "ResourceColdStorage",
+      "importComponent": "import ResourceColdStorage from 'aws-react-icons/lib/icons/ResourceColdStorage';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Credentials",
+      "component": "ResourceCredentials",
+      "importComponent": "import ResourceCredentials from 'aws-react-icons/lib/icons/ResourceCredentials';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Database",
+      "component": "ResourceDatabase",
+      "importComponent": "import ResourceDatabase from 'aws-react-icons/lib/icons/ResourceDatabase';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Data Stream",
+      "component": "ResourceDataStream",
+      "importComponent": "import ResourceDataStream from 'aws-react-icons/lib/icons/ResourceDataStream';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Data Table",
+      "component": "ResourceDataTable",
+      "importComponent": "import ResourceDataTable from 'aws-react-icons/lib/icons/ResourceDataTable';",
       "categorys": [
         "Resource",
         "General Icons"
@@ -5059,15 +4285,6 @@
       ]
     },
     {
-      "name": "Resource Genericdatabase",
-      "component": "ResourceGenericdatabase",
-      "importComponent": "import ResourceGenericdatabase from 'aws-react-icons/lib/icons/ResourceGenericdatabase';",
-      "categorys": [
-        "Resource",
-        "General Icons"
-      ]
-    },
-    {
       "name": "Resource Git Repository",
       "component": "ResourceGitRepository",
       "importComponent": "import ResourceGitRepository from 'aws-react-icons/lib/icons/ResourceGitRepository';",
@@ -5113,9 +4330,36 @@
       ]
     },
     {
+      "name": "Resource JSON Script",
+      "component": "ResourceJSONScript",
+      "importComponent": "import ResourceJSONScript from 'aws-react-icons/lib/icons/ResourceJSONScript';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Logs",
+      "component": "ResourceLogs",
+      "importComponent": "import ResourceLogs from 'aws-react-icons/lib/icons/ResourceLogs';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
       "name": "Resource Magnifying Glass",
       "component": "ResourceMagnifyingGlass",
       "importComponent": "import ResourceMagnifyingGlass from 'aws-react-icons/lib/icons/ResourceMagnifyingGlass';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Metrics",
+      "component": "ResourceMetrics",
+      "importComponent": "import ResourceMetrics from 'aws-react-icons/lib/icons/ResourceMetrics';",
       "categorys": [
         "Resource",
         "General Icons"
@@ -5143,6 +4387,15 @@
       "name": "Resource Officebuilding",
       "component": "ResourceOfficebuilding",
       "importComponent": "import ResourceOfficebuilding from 'aws-react-icons/lib/icons/ResourceOfficebuilding';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Programming Language",
+      "component": "ResourceProgrammingLanguage",
+      "importComponent": "import ResourceProgrammingLanguage from 'aws-react-icons/lib/icons/ResourceProgrammingLanguage';",
       "categorys": [
         "Resource",
         "General Icons"
@@ -5179,6 +4432,15 @@
       "name": "Resource SDK",
       "component": "ResourceSDK",
       "importComponent": "import ResourceSDK from 'aws-react-icons/lib/icons/ResourceSDK';",
+      "categorys": [
+        "Resource",
+        "General Icons"
+      ]
+    },
+    {
+      "name": "Resource Server",
+      "component": "ResourceServer",
+      "importComponent": "import ResourceServer from 'aws-react-icons/lib/icons/ResourceServer';",
       "categorys": [
         "Resource",
         "General Icons"
@@ -5239,15 +4501,6 @@
       ]
     },
     {
-      "name": "Resource Traditionalserver",
-      "component": "ResourceTraditionalserver",
-      "importComponent": "import ResourceTraditionalserver from 'aws-react-icons/lib/icons/ResourceTraditionalserver';",
-      "categorys": [
-        "Resource",
-        "General Icons"
-      ]
-    },
-    {
       "name": "Resource User",
       "component": "ResourceUser",
       "importComponent": "import ResourceUser from 'aws-react-icons/lib/icons/ResourceUser';",
@@ -5271,7 +4524,7 @@
       "importComponent": "import ResourceAWSIoTAction from 'aws-react-icons/lib/icons/ResourceAWSIoTAction';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5280,7 +4533,7 @@
       "importComponent": "import ResourceAWSIoTActuator from 'aws-react-icons/lib/icons/ResourceAWSIoTActuator';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5289,7 +4542,7 @@
       "importComponent": "import ResourceAWSIoTAlexaEnabledDevice from 'aws-react-icons/lib/icons/ResourceAWSIoTAlexaEnabledDevice';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5298,7 +4551,7 @@
       "importComponent": "import ResourceAWSIoTAlexaSkill from 'aws-react-icons/lib/icons/ResourceAWSIoTAlexaSkill';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5307,7 +4560,7 @@
       "importComponent": "import ResourceAWSIoTAlexaVoiceService from 'aws-react-icons/lib/icons/ResourceAWSIoTAlexaVoiceService';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5316,7 +4569,7 @@
       "importComponent": "import ResourceAWSIoTAnalyticsChannel from 'aws-react-icons/lib/icons/ResourceAWSIoTAnalyticsChannel';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5325,7 +4578,7 @@
       "importComponent": "import ResourceAWSIoTAnalyticsDataset from 'aws-react-icons/lib/icons/ResourceAWSIoTAnalyticsDataset';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5334,7 +4587,7 @@
       "importComponent": "import ResourceAWSIoTAnalyticsDataStore from 'aws-react-icons/lib/icons/ResourceAWSIoTAnalyticsDataStore';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5343,7 +4596,7 @@
       "importComponent": "import ResourceAWSIoTAnalyticsNotebook from 'aws-react-icons/lib/icons/ResourceAWSIoTAnalyticsNotebook';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5352,7 +4605,7 @@
       "importComponent": "import ResourceAWSIoTAnalyticsPipeline from 'aws-react-icons/lib/icons/ResourceAWSIoTAnalyticsPipeline';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5361,7 +4614,7 @@
       "importComponent": "import ResourceAWSIoTCertificate from 'aws-react-icons/lib/icons/ResourceAWSIoTCertificate';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5370,7 +4623,7 @@
       "importComponent": "import ResourceAWSIoTCoreDeviceAdvisor from 'aws-react-icons/lib/icons/ResourceAWSIoTCoreDeviceAdvisor';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5379,7 +4632,7 @@
       "importComponent": "import ResourceAWSIoTCoreDeviceLocation from 'aws-react-icons/lib/icons/ResourceAWSIoTCoreDeviceLocation';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5388,7 +4641,7 @@
       "importComponent": "import ResourceAWSIoTDesiredState from 'aws-react-icons/lib/icons/ResourceAWSIoTDesiredState';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5397,7 +4650,7 @@
       "importComponent": "import ResourceAWSIoTDeviceDefenderIoTDeviceJobs from 'aws-react-icons/lib/icons/ResourceAWSIoTDeviceDefenderIoTDeviceJobs';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5406,7 +4659,7 @@
       "importComponent": "import ResourceAWSIoTDeviceGateway from 'aws-react-icons/lib/icons/ResourceAWSIoTDeviceGateway';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5415,7 +4668,7 @@
       "importComponent": "import ResourceAWSIoTDeviceManagementFleetHub from 'aws-react-icons/lib/icons/ResourceAWSIoTDeviceManagementFleetHub';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5424,7 +4677,7 @@
       "importComponent": "import ResourceAWSIoTDeviceTester from 'aws-react-icons/lib/icons/ResourceAWSIoTDeviceTester';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5433,7 +4686,7 @@
       "importComponent": "import ResourceAWSIoTEcho from 'aws-react-icons/lib/icons/ResourceAWSIoTEcho';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5442,7 +4695,7 @@
       "importComponent": "import ResourceAWSIoTFireTV from 'aws-react-icons/lib/icons/ResourceAWSIoTFireTV';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5451,7 +4704,7 @@
       "importComponent": "import ResourceAWSIoTFireTVStick from 'aws-react-icons/lib/icons/ResourceAWSIoTFireTVStick';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5460,7 +4713,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassArtifact from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassArtifact';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5469,7 +4722,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassComponent from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassComponent';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5478,7 +4731,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassComponentMachineLearning from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassComponentMachineLearning';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5487,7 +4740,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassComponentNucleus from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassComponentNucleus';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5496,7 +4749,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassComponentPrivate from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassComponentPrivate';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5505,7 +4758,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassComponentPublic from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassComponentPublic';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5514,7 +4767,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassConnector from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassConnector';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5523,7 +4776,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassInterprocessCommunication from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassInterprocessCommunication';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5532,7 +4785,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassProtocol from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassProtocol';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5541,7 +4794,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassRecipe from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassRecipe';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5550,7 +4803,7 @@
       "importComponent": "import ResourceAWSIoTGreengrassStreamManager from 'aws-react-icons/lib/icons/ResourceAWSIoTGreengrassStreamManager';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5559,7 +4812,7 @@
       "importComponent": "import ResourceAWSIoTHardwareBoard from 'aws-react-icons/lib/icons/ResourceAWSIoTHardwareBoard';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5568,7 +4821,7 @@
       "importComponent": "import ResourceAWSIoTHTTP2Protocol from 'aws-react-icons/lib/icons/ResourceAWSIoTHTTP2Protocol';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5577,7 +4830,7 @@
       "importComponent": "import ResourceAWSIoTHTTPProtocol from 'aws-react-icons/lib/icons/ResourceAWSIoTHTTPProtocol';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5586,7 +4839,7 @@
       "importComponent": "import ResourceAWSIoTLambdaFunction from 'aws-react-icons/lib/icons/ResourceAWSIoTLambdaFunction';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5595,7 +4848,7 @@
       "importComponent": "import ResourceAWSIoTLoRaWANProtocol from 'aws-react-icons/lib/icons/ResourceAWSIoTLoRaWANProtocol';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5604,7 +4857,7 @@
       "importComponent": "import ResourceAWSIoTMQTTProtocol from 'aws-react-icons/lib/icons/ResourceAWSIoTMQTTProtocol';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5613,7 +4866,7 @@
       "importComponent": "import ResourceAWSIoTOverAirUpdate from 'aws-react-icons/lib/icons/ResourceAWSIoTOverAirUpdate';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5622,7 +4875,7 @@
       "importComponent": "import ResourceAWSIoTPolicy from 'aws-react-icons/lib/icons/ResourceAWSIoTPolicy';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5631,7 +4884,7 @@
       "importComponent": "import ResourceAWSIoTReportedState from 'aws-react-icons/lib/icons/ResourceAWSIoTReportedState';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5640,7 +4893,7 @@
       "importComponent": "import ResourceAWSIoTRule from 'aws-react-icons/lib/icons/ResourceAWSIoTRule';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5649,7 +4902,7 @@
       "importComponent": "import ResourceAWSIoTSailboat from 'aws-react-icons/lib/icons/ResourceAWSIoTSailboat';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5658,7 +4911,7 @@
       "importComponent": "import ResourceAWSIoTSensor from 'aws-react-icons/lib/icons/ResourceAWSIoTSensor';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5667,7 +4920,7 @@
       "importComponent": "import ResourceAWSIoTServo from 'aws-react-icons/lib/icons/ResourceAWSIoTServo';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5676,7 +4929,7 @@
       "importComponent": "import ResourceAWSIoTShadow from 'aws-react-icons/lib/icons/ResourceAWSIoTShadow';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5685,7 +4938,7 @@
       "importComponent": "import ResourceAWSIoTSimulator from 'aws-react-icons/lib/icons/ResourceAWSIoTSimulator';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5694,7 +4947,7 @@
       "importComponent": "import ResourceAWSIoTSiteWiseAsset from 'aws-react-icons/lib/icons/ResourceAWSIoTSiteWiseAsset';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5703,7 +4956,7 @@
       "importComponent": "import ResourceAWSIoTSiteWiseAssetHierarchy from 'aws-react-icons/lib/icons/ResourceAWSIoTSiteWiseAssetHierarchy';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5712,7 +4965,7 @@
       "importComponent": "import ResourceAWSIoTSiteWiseAssetModel from 'aws-react-icons/lib/icons/ResourceAWSIoTSiteWiseAssetModel';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5721,7 +4974,7 @@
       "importComponent": "import ResourceAWSIoTSiteWiseAssetProperties from 'aws-react-icons/lib/icons/ResourceAWSIoTSiteWiseAssetProperties';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5730,7 +4983,7 @@
       "importComponent": "import ResourceAWSIoTSiteWiseDataStreams from 'aws-react-icons/lib/icons/ResourceAWSIoTSiteWiseDataStreams';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5739,7 +4992,7 @@
       "importComponent": "import ResourceAWSIoTThingBank from 'aws-react-icons/lib/icons/ResourceAWSIoTThingBank';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5748,7 +5001,7 @@
       "importComponent": "import ResourceAWSIoTThingBicycle from 'aws-react-icons/lib/icons/ResourceAWSIoTThingBicycle';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5757,7 +5010,7 @@
       "importComponent": "import ResourceAWSIoTThingbulb from 'aws-react-icons/lib/icons/ResourceAWSIoTThingbulb';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5766,7 +5019,7 @@
       "importComponent": "import ResourceAWSIoTThingCamera from 'aws-react-icons/lib/icons/ResourceAWSIoTThingCamera';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5775,7 +5028,7 @@
       "importComponent": "import ResourceAWSIoTThingCar from 'aws-react-icons/lib/icons/ResourceAWSIoTThingCar';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5784,7 +5037,7 @@
       "importComponent": "import ResourceAWSIoTThingCart from 'aws-react-icons/lib/icons/ResourceAWSIoTThingCart';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5793,7 +5046,7 @@
       "importComponent": "import ResourceAWSIoTThingCoffeePot from 'aws-react-icons/lib/icons/ResourceAWSIoTThingCoffeePot';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5802,7 +5055,7 @@
       "importComponent": "import ResourceAWSIoTThingDoorLock from 'aws-react-icons/lib/icons/ResourceAWSIoTThingDoorLock';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5811,7 +5064,7 @@
       "importComponent": "import ResourceAWSIoTThingFactory from 'aws-react-icons/lib/icons/ResourceAWSIoTThingFactory';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5820,7 +5073,7 @@
       "importComponent": "import ResourceAWSIoTThingFreeRTOSDevice from 'aws-react-icons/lib/icons/ResourceAWSIoTThingFreeRTOSDevice';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5829,7 +5082,7 @@
       "importComponent": "import ResourceAWSIoTThingGeneric from 'aws-react-icons/lib/icons/ResourceAWSIoTThingGeneric';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5838,7 +5091,7 @@
       "importComponent": "import ResourceAWSIoTThingHouse from 'aws-react-icons/lib/icons/ResourceAWSIoTThingHouse';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5847,7 +5100,7 @@
       "importComponent": "import ResourceAWSIoTThingHumiditySensor from 'aws-react-icons/lib/icons/ResourceAWSIoTThingHumiditySensor';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5856,7 +5109,7 @@
       "importComponent": "import ResourceAWSIoTThingIndustrialPC from 'aws-react-icons/lib/icons/ResourceAWSIoTThingIndustrialPC';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5865,7 +5118,7 @@
       "importComponent": "import ResourceAWSIoTThingMedicalEmergency from 'aws-react-icons/lib/icons/ResourceAWSIoTThingMedicalEmergency';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5874,7 +5127,7 @@
       "importComponent": "import ResourceAWSIoTThingPLC from 'aws-react-icons/lib/icons/ResourceAWSIoTThingPLC';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5883,7 +5136,7 @@
       "importComponent": "import ResourceAWSIoTThingPoliceEmergency from 'aws-react-icons/lib/icons/ResourceAWSIoTThingPoliceEmergency';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5892,7 +5145,7 @@
       "importComponent": "import ResourceAWSIoTThingRelay from 'aws-react-icons/lib/icons/ResourceAWSIoTThingRelay';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5901,7 +5154,7 @@
       "importComponent": "import ResourceAWSIoTThingStacklight from 'aws-react-icons/lib/icons/ResourceAWSIoTThingStacklight';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5910,7 +5163,7 @@
       "importComponent": "import ResourceAWSIoTThingTemperatureHumiditySensor from 'aws-react-icons/lib/icons/ResourceAWSIoTThingTemperatureHumiditySensor';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5919,7 +5172,7 @@
       "importComponent": "import ResourceAWSIoTThingTemperatureSensor from 'aws-react-icons/lib/icons/ResourceAWSIoTThingTemperatureSensor';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5928,7 +5181,7 @@
       "importComponent": "import ResourceAWSIoTThingTemperatureVibrationSensor from 'aws-react-icons/lib/icons/ResourceAWSIoTThingTemperatureVibrationSensor';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5937,7 +5190,7 @@
       "importComponent": "import ResourceAWSIoTThingThermostat from 'aws-react-icons/lib/icons/ResourceAWSIoTThingThermostat';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5946,7 +5199,7 @@
       "importComponent": "import ResourceAWSIoTThingTravel from 'aws-react-icons/lib/icons/ResourceAWSIoTThingTravel';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5955,7 +5208,7 @@
       "importComponent": "import ResourceAWSIoTThingUtility from 'aws-react-icons/lib/icons/ResourceAWSIoTThingUtility';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5964,7 +5217,7 @@
       "importComponent": "import ResourceAWSIoTThingVibrationSensor from 'aws-react-icons/lib/icons/ResourceAWSIoTThingVibrationSensor';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5973,7 +5226,7 @@
       "importComponent": "import ResourceAWSIoTThingWindfarm from 'aws-react-icons/lib/icons/ResourceAWSIoTThingWindfarm';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -5982,7 +5235,7 @@
       "importComponent": "import ResourceAWSIoTTopic from 'aws-react-icons/lib/icons/ResourceAWSIoTTopic';",
       "categorys": [
         "Resource",
-        "loT"
+        "IoT"
       ]
     },
     {
@@ -6531,7 +5784,7 @@
       "importComponent": "import ResourceAWSApplicationDiscoveryServiceAWSAgentlessCollector from 'aws-react-icons/lib/icons/ResourceAWSApplicationDiscoveryServiceAWSAgentlessCollector';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6540,7 +5793,7 @@
       "importComponent": "import ResourceAWSApplicationDiscoveryServiceAWSDiscoveryAgent from 'aws-react-icons/lib/icons/ResourceAWSApplicationDiscoveryServiceAWSDiscoveryAgent';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6549,7 +5802,7 @@
       "importComponent": "import ResourceAWSApplicationDiscoveryServiceMigrationEvaluatorCollector from 'aws-react-icons/lib/icons/ResourceAWSApplicationDiscoveryServiceMigrationEvaluatorCollector';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6558,7 +5811,7 @@
       "importComponent": "import ResourceAWSDatasyncAgent from 'aws-react-icons/lib/icons/ResourceAWSDatasyncAgent';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6567,7 +5820,7 @@
       "importComponent": "import ResourceAWSDataSyncDiscovery from 'aws-react-icons/lib/icons/ResourceAWSDataSyncDiscovery';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6576,7 +5829,7 @@
       "importComponent": "import ResourceAWSMainframeModernizationAnalyzer from 'aws-react-icons/lib/icons/ResourceAWSMainframeModernizationAnalyzer';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6585,7 +5838,7 @@
       "importComponent": "import ResourceAWSMainframeModernizationCompiler from 'aws-react-icons/lib/icons/ResourceAWSMainframeModernizationCompiler';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6594,7 +5847,7 @@
       "importComponent": "import ResourceAWSMainframeModernizationConverter from 'aws-react-icons/lib/icons/ResourceAWSMainframeModernizationConverter';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6603,7 +5856,7 @@
       "importComponent": "import ResourceAWSMainframeModernizationDeveloper from 'aws-react-icons/lib/icons/ResourceAWSMainframeModernizationDeveloper';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6612,7 +5865,7 @@
       "importComponent": "import ResourceAWSMainframeModernizationRuntime from 'aws-react-icons/lib/icons/ResourceAWSMainframeModernizationRuntime';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6621,7 +5874,7 @@
       "importComponent": "import ResourceAWSMigrationHubRefactorSpacesApplications from 'aws-react-icons/lib/icons/ResourceAWSMigrationHubRefactorSpacesApplications';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6630,7 +5883,7 @@
       "importComponent": "import ResourceAWSMigrationHubRefactorSpacesEnvironments from 'aws-react-icons/lib/icons/ResourceAWSMigrationHubRefactorSpacesEnvironments';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6639,7 +5892,7 @@
       "importComponent": "import ResourceAWSMigrationHubRefactorSpacesServices from 'aws-react-icons/lib/icons/ResourceAWSMigrationHubRefactorSpacesServices';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6648,7 +5901,7 @@
       "importComponent": "import ResourceAWSTransferFamilyAWSAS2 from 'aws-react-icons/lib/icons/ResourceAWSTransferFamilyAWSAS2';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6657,7 +5910,7 @@
       "importComponent": "import ResourceAWSTransferFamilyAWSFTP from 'aws-react-icons/lib/icons/ResourceAWSTransferFamilyAWSFTP';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6666,7 +5919,7 @@
       "importComponent": "import ResourceAWSTransferFamilyAWSFTPS from 'aws-react-icons/lib/icons/ResourceAWSTransferFamilyAWSFTPS';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6675,7 +5928,7 @@
       "importComponent": "import ResourceAWSTransferFamilyAWSSFTP from 'aws-react-icons/lib/icons/ResourceAWSTransferFamilyAWSSFTP';",
       "categorys": [
         "Resource",
-        "Migration and Transfer"
+        "Migration Transfer"
       ]
     },
     {
@@ -6684,7 +5937,7 @@
       "importComponent": "import ResourceAmazonCloudFrontDownloadDistribution from 'aws-react-icons/lib/icons/ResourceAmazonCloudFrontDownloadDistribution';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6693,7 +5946,7 @@
       "importComponent": "import ResourceAmazonCloudFrontEdgeLocation from 'aws-react-icons/lib/icons/ResourceAmazonCloudFrontEdgeLocation';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6702,7 +5955,7 @@
       "importComponent": "import ResourceAmazonCloudFrontFunctions from 'aws-react-icons/lib/icons/ResourceAmazonCloudFrontFunctions';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6711,16 +5964,7 @@
       "importComponent": "import ResourceAmazonCloudFrontStreamingDistribution from 'aws-react-icons/lib/icons/ResourceAmazonCloudFrontStreamingDistribution';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
-      ]
-    },
-    {
-      "name": "Resource Amazon Route53Application Recovery Controller",
-      "component": "ResourceAmazonRoute53ApplicationRecoveryController",
-      "importComponent": "import ResourceAmazonRoute53ApplicationRecoveryController from 'aws-react-icons/lib/icons/ResourceAmazonRoute53ApplicationRecoveryController';",
-      "categorys": [
-        "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6729,7 +5973,7 @@
       "importComponent": "import ResourceAmazonRoute53HostedZone from 'aws-react-icons/lib/icons/ResourceAmazonRoute53HostedZone';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6738,7 +5982,7 @@
       "importComponent": "import ResourceAmazonRoute53ReadinessChecks from 'aws-react-icons/lib/icons/ResourceAmazonRoute53ReadinessChecks';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6747,7 +5991,7 @@
       "importComponent": "import ResourceAmazonRoute53Resolver from 'aws-react-icons/lib/icons/ResourceAmazonRoute53Resolver';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6756,7 +6000,7 @@
       "importComponent": "import ResourceAmazonRoute53ResolverDNSFirewall from 'aws-react-icons/lib/icons/ResourceAmazonRoute53ResolverDNSFirewall';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6765,7 +6009,16 @@
       "importComponent": "import ResourceAmazonRoute53ResolverQueryLogging from 'aws-react-icons/lib/icons/ResourceAmazonRoute53ResolverQueryLogging';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
+      ]
+    },
+    {
+      "name": "Resource Amazon Route53Route53Application Recovery Controller",
+      "component": "ResourceAmazonRoute53Route53ApplicationRecoveryController",
+      "importComponent": "import ResourceAmazonRoute53Route53ApplicationRecoveryController from 'aws-react-icons/lib/icons/ResourceAmazonRoute53Route53ApplicationRecoveryController';",
+      "categorys": [
+        "Resource",
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6774,7 +6027,7 @@
       "importComponent": "import ResourceAmazonRoute53RouteTable from 'aws-react-icons/lib/icons/ResourceAmazonRoute53RouteTable';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6783,7 +6036,7 @@
       "importComponent": "import ResourceAmazonRoute53RoutingControls from 'aws-react-icons/lib/icons/ResourceAmazonRoute53RoutingControls';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6792,7 +6045,7 @@
       "importComponent": "import ResourceAmazonVPCCarrierGateway from 'aws-react-icons/lib/icons/ResourceAmazonVPCCarrierGateway';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6801,7 +6054,7 @@
       "importComponent": "import ResourceAmazonVPCCustomerGateway from 'aws-react-icons/lib/icons/ResourceAmazonVPCCustomerGateway';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6810,7 +6063,7 @@
       "importComponent": "import ResourceAmazonVPCElasticNetworkAdapter from 'aws-react-icons/lib/icons/ResourceAmazonVPCElasticNetworkAdapter';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6819,7 +6072,7 @@
       "importComponent": "import ResourceAmazonVPCElasticNetworkInterface from 'aws-react-icons/lib/icons/ResourceAmazonVPCElasticNetworkInterface';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6828,7 +6081,7 @@
       "importComponent": "import ResourceAmazonVPCEndpoints from 'aws-react-icons/lib/icons/ResourceAmazonVPCEndpoints';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6837,7 +6090,7 @@
       "importComponent": "import ResourceAmazonVPCFlowLogs from 'aws-react-icons/lib/icons/ResourceAmazonVPCFlowLogs';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6846,7 +6099,7 @@
       "importComponent": "import ResourceAmazonVPCInternetGateway from 'aws-react-icons/lib/icons/ResourceAmazonVPCInternetGateway';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6855,7 +6108,7 @@
       "importComponent": "import ResourceAmazonVPCNATGateway from 'aws-react-icons/lib/icons/ResourceAmazonVPCNATGateway';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6864,7 +6117,7 @@
       "importComponent": "import ResourceAmazonVPCNetworkAccessAnalyzer from 'aws-react-icons/lib/icons/ResourceAmazonVPCNetworkAccessAnalyzer';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6873,7 +6126,7 @@
       "importComponent": "import ResourceAmazonVPCNetworkAccessControlList from 'aws-react-icons/lib/icons/ResourceAmazonVPCNetworkAccessControlList';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6882,7 +6135,7 @@
       "importComponent": "import ResourceAmazonVPCPeeringConnection from 'aws-react-icons/lib/icons/ResourceAmazonVPCPeeringConnection';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6891,7 +6144,7 @@
       "importComponent": "import ResourceAmazonVPCReachabilityAnalyzer from 'aws-react-icons/lib/icons/ResourceAmazonVPCReachabilityAnalyzer';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6900,7 +6153,7 @@
       "importComponent": "import ResourceAmazonVPCRouter from 'aws-react-icons/lib/icons/ResourceAmazonVPCRouter';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6909,7 +6162,7 @@
       "importComponent": "import ResourceAmazonVPCTrafficMirroring from 'aws-react-icons/lib/icons/ResourceAmazonVPCTrafficMirroring';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6918,7 +6171,7 @@
       "importComponent": "import ResourceAmazonVPCVirtualprivatecloudVPC from 'aws-react-icons/lib/icons/ResourceAmazonVPCVirtualprivatecloudVPC';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6927,7 +6180,7 @@
       "importComponent": "import ResourceAmazonVPCVPNConnection from 'aws-react-icons/lib/icons/ResourceAmazonVPCVPNConnection';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6936,16 +6189,7 @@
       "importComponent": "import ResourceAmazonVPCVPNGateway from 'aws-react-icons/lib/icons/ResourceAmazonVPCVPNGateway';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
-      ]
-    },
-    {
-      "name": "Resource App Mesh Virtual Gateway",
-      "component": "ResourceAppMeshVirtualGateway",
-      "importComponent": "import ResourceAppMeshVirtualGateway from 'aws-react-icons/lib/icons/ResourceAppMeshVirtualGateway';",
-      "categorys": [
-        "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6954,7 +6198,16 @@
       "importComponent": "import ResourceAWSAppMeshMesh from 'aws-react-icons/lib/icons/ResourceAWSAppMeshMesh';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
+      ]
+    },
+    {
+      "name": "Resource AWS App Mesh Virtual Gateway",
+      "component": "ResourceAWSAppMeshVirtualGateway",
+      "importComponent": "import ResourceAWSAppMeshVirtualGateway from 'aws-react-icons/lib/icons/ResourceAWSAppMeshVirtualGateway';",
+      "categorys": [
+        "Resource",
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6963,7 +6216,7 @@
       "importComponent": "import ResourceAWSAppMeshVirtualNode from 'aws-react-icons/lib/icons/ResourceAWSAppMeshVirtualNode';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6972,7 +6225,7 @@
       "importComponent": "import ResourceAWSAppMeshVirtualRouter from 'aws-react-icons/lib/icons/ResourceAWSAppMeshVirtualRouter';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6981,7 +6234,7 @@
       "importComponent": "import ResourceAWSAppMeshVirtualService from 'aws-react-icons/lib/icons/ResourceAWSAppMeshVirtualService';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6990,7 +6243,7 @@
       "importComponent": "import ResourceAWSCloudMapNamespace from 'aws-react-icons/lib/icons/ResourceAWSCloudMapNamespace';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -6999,7 +6252,7 @@
       "importComponent": "import ResourceAWSCloudMapResource from 'aws-react-icons/lib/icons/ResourceAWSCloudMapResource';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7008,7 +6261,7 @@
       "importComponent": "import ResourceAWSCloudMapService from 'aws-react-icons/lib/icons/ResourceAWSCloudMapService';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7017,7 +6270,7 @@
       "importComponent": "import ResourceAWSCloudWANCoreNetworkEdge from 'aws-react-icons/lib/icons/ResourceAWSCloudWANCoreNetworkEdge';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7026,7 +6279,7 @@
       "importComponent": "import ResourceAWSCloudWANSegmentNetwork from 'aws-react-icons/lib/icons/ResourceAWSCloudWANSegmentNetwork';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7035,16 +6288,7 @@
       "importComponent": "import ResourceAWSCloudWANTransitGatewayRouteTableAttachment from 'aws-react-icons/lib/icons/ResourceAWSCloudWANTransitGatewayRouteTableAttachment';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
-      ]
-    },
-    {
-      "name": "Resource AWS Cloud WAN Virtual Po P",
-      "component": "ResourceAWSCloudWANVirtualPoP",
-      "importComponent": "import ResourceAWSCloudWANVirtualPoP from 'aws-react-icons/lib/icons/ResourceAWSCloudWANVirtualPoP';",
-      "categorys": [
-        "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7053,7 +6297,7 @@
       "importComponent": "import ResourceAWSDirectConnectGateway from 'aws-react-icons/lib/icons/ResourceAWSDirectConnectGateway';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7062,7 +6306,7 @@
       "importComponent": "import ResourceAWSTransitGatewayAttachment from 'aws-react-icons/lib/icons/ResourceAWSTransitGatewayAttachment';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7071,7 +6315,7 @@
       "importComponent": "import ResourceElasticLoadBalancingApplicationLoadBalancer from 'aws-react-icons/lib/icons/ResourceElasticLoadBalancingApplicationLoadBalancer';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7080,7 +6324,7 @@
       "importComponent": "import ResourceElasticLoadBalancingClassicLoadBalancer from 'aws-react-icons/lib/icons/ResourceElasticLoadBalancingClassicLoadBalancer';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7089,7 +6333,7 @@
       "importComponent": "import ResourceElasticLoadBalancingGatewayLoadBalancer from 'aws-react-icons/lib/icons/ResourceElasticLoadBalancingGatewayLoadBalancer';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7098,7 +6342,7 @@
       "importComponent": "import ResourceElasticLoadBalancingNetworkLoadBalancer from 'aws-react-icons/lib/icons/ResourceElasticLoadBalancingNetworkLoadBalancer';",
       "categorys": [
         "Resource",
-        "Networking and Content Delivery"
+        "Networking Content Delivery"
       ]
     },
     {
@@ -7260,7 +6504,7 @@
       "importComponent": "import ResourceAmazonInspectorAgent from 'aws-react-icons/lib/icons/ResourceAmazonInspectorAgent';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7269,7 +6513,7 @@
       "importComponent": "import ResourceAWSCertificateManagerCertificateAuthority from 'aws-react-icons/lib/icons/ResourceAWSCertificateManagerCertificateAuthority';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7278,7 +6522,7 @@
       "importComponent": "import ResourceAWSDirectoryServiceADConnector from 'aws-react-icons/lib/icons/ResourceAWSDirectoryServiceADConnector';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7287,7 +6531,7 @@
       "importComponent": "import ResourceAWSDirectoryServiceAWSManagedMicrosoftAD from 'aws-react-icons/lib/icons/ResourceAWSDirectoryServiceAWSManagedMicrosoftAD';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7296,7 +6540,7 @@
       "importComponent": "import ResourceAWSDirectoryServiceSimpleAD from 'aws-react-icons/lib/icons/ResourceAWSDirectoryServiceSimpleAD';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7305,7 +6549,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementAddon from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementAddon';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7314,7 +6558,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementAWSSTS from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementAWSSTS';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7323,7 +6567,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementAWSSTSAlternate from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementAWSSTSAlternate';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7332,7 +6576,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementDataEncryptionKey from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementDataEncryptionKey';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7341,7 +6585,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementEncryptedData from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementEncryptedData';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7350,7 +6594,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementIAMAccessAnalyzer from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementIAMAccessAnalyzer';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7359,7 +6603,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementIAMRolesAnywhere from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementIAMRolesAnywhere';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7368,7 +6612,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementLongTermSecurityCredential from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementLongTermSecurityCredential';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7377,7 +6621,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementMFAToken from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementMFAToken';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7386,7 +6630,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementPermissions from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementPermissions';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7395,7 +6639,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementRole from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementRole';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7404,7 +6648,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementTemporarySecurityCredential from 'aws-react-icons/lib/icons/ResourceAWSIdentityAccessManagementTemporarySecurityCredential';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7413,7 +6657,7 @@
       "importComponent": "import ResourceAWSKeyManagementServiceExternalKeyStore from 'aws-react-icons/lib/icons/ResourceAWSKeyManagementServiceExternalKeyStore';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7422,7 +6666,7 @@
       "importComponent": "import ResourceAWSNetworkFirewallEndpoints from 'aws-react-icons/lib/icons/ResourceAWSNetworkFirewallEndpoints';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7431,7 +6675,7 @@
       "importComponent": "import ResourceAWSSecurityHubFinding from 'aws-react-icons/lib/icons/ResourceAWSSecurityHubFinding';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7440,7 +6684,7 @@
       "importComponent": "import ResourceAWSShieldAWSShieldAdvanced from 'aws-react-icons/lib/icons/ResourceAWSShieldAWSShieldAdvanced';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7449,7 +6693,7 @@
       "importComponent": "import ResourceAWSWAFBadBot from 'aws-react-icons/lib/icons/ResourceAWSWAFBadBot';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7458,7 +6702,7 @@
       "importComponent": "import ResourceAWSWAFBot from 'aws-react-icons/lib/icons/ResourceAWSWAFBot';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7467,7 +6711,7 @@
       "importComponent": "import ResourceAWSWAFBotControl from 'aws-react-icons/lib/icons/ResourceAWSWAFBotControl';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7476,7 +6720,7 @@
       "importComponent": "import ResourceAWSWAFFilteringRule from 'aws-react-icons/lib/icons/ResourceAWSWAFFilteringRule';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7485,7 +6729,7 @@
       "importComponent": "import ResourceAWSWAFLabels from 'aws-react-icons/lib/icons/ResourceAWSWAFLabels';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7494,7 +6738,7 @@
       "importComponent": "import ResourceAWSWAFManagedRule from 'aws-react-icons/lib/icons/ResourceAWSWAFManagedRule';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7503,7 +6747,7 @@
       "importComponent": "import ResourceAWSWAFRule from 'aws-react-icons/lib/icons/ResourceAWSWAFRule';",
       "categorys": [
         "Resource",
-        "Security Identity and Compliance"
+        "Security Identity Compliance"
       ]
     },
     {
@@ -7552,6 +6796,51 @@
       ]
     },
     {
+      "name": "Resource Amazon Elastic File System EFS Intelligent Tiering",
+      "component": "ResourceAmazonElasticFileSystemEFSIntelligentTiering",
+      "importComponent": "import ResourceAmazonElasticFileSystemEFSIntelligentTiering from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemEFSIntelligentTiering';",
+      "categorys": [
+        "Resource",
+        "Storage"
+      ]
+    },
+    {
+      "name": "Resource Amazon Elastic File System EFS One Zone",
+      "component": "ResourceAmazonElasticFileSystemEFSOneZone",
+      "importComponent": "import ResourceAmazonElasticFileSystemEFSOneZone from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemEFSOneZone';",
+      "categorys": [
+        "Resource",
+        "Storage"
+      ]
+    },
+    {
+      "name": "Resource Amazon Elastic File System EFS One Zone Infrequent Access",
+      "component": "ResourceAmazonElasticFileSystemEFSOneZoneInfrequentAccess",
+      "importComponent": "import ResourceAmazonElasticFileSystemEFSOneZoneInfrequentAccess from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemEFSOneZoneInfrequentAccess';",
+      "categorys": [
+        "Resource",
+        "Storage"
+      ]
+    },
+    {
+      "name": "Resource Amazon Elastic File System EFS Standard",
+      "component": "ResourceAmazonElasticFileSystemEFSStandard",
+      "importComponent": "import ResourceAmazonElasticFileSystemEFSStandard from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemEFSStandard';",
+      "categorys": [
+        "Resource",
+        "Storage"
+      ]
+    },
+    {
+      "name": "Resource Amazon Elastic File System EFS Standard Infrequent Access",
+      "component": "ResourceAmazonElasticFileSystemEFSStandardInfrequentAccess",
+      "importComponent": "import ResourceAmazonElasticFileSystemEFSStandardInfrequentAccess from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemEFSStandardInfrequentAccess';",
+      "categorys": [
+        "Resource",
+        "Storage"
+      ]
+    },
+    {
       "name": "Resource Amazon Elastic File System Elastic Throughput",
       "component": "ResourceAmazonElasticFileSystemElasticThroughput",
       "importComponent": "import ResourceAmazonElasticFileSystemElasticThroughput from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemElasticThroughput';",
@@ -7564,51 +6853,6 @@
       "name": "Resource Amazon Elastic File System File System",
       "component": "ResourceAmazonElasticFileSystemFileSystem",
       "importComponent": "import ResourceAmazonElasticFileSystemFileSystem from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemFileSystem';",
-      "categorys": [
-        "Resource",
-        "Storage"
-      ]
-    },
-    {
-      "name": "Resource Amazon Elastic File System Intelligent Tiering",
-      "component": "ResourceAmazonElasticFileSystemIntelligentTiering",
-      "importComponent": "import ResourceAmazonElasticFileSystemIntelligentTiering from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemIntelligentTiering';",
-      "categorys": [
-        "Resource",
-        "Storage"
-      ]
-    },
-    {
-      "name": "Resource Amazon Elastic File System One Zone",
-      "component": "ResourceAmazonElasticFileSystemOneZone",
-      "importComponent": "import ResourceAmazonElasticFileSystemOneZone from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemOneZone';",
-      "categorys": [
-        "Resource",
-        "Storage"
-      ]
-    },
-    {
-      "name": "Resource Amazon Elastic File System One Zone Infrequent Access",
-      "component": "ResourceAmazonElasticFileSystemOneZoneInfrequentAccess",
-      "importComponent": "import ResourceAmazonElasticFileSystemOneZoneInfrequentAccess from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemOneZoneInfrequentAccess';",
-      "categorys": [
-        "Resource",
-        "Storage"
-      ]
-    },
-    {
-      "name": "Resource Amazon Elastic File System Standard",
-      "component": "ResourceAmazonElasticFileSystemStandard",
-      "importComponent": "import ResourceAmazonElasticFileSystemStandard from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemStandard';",
-      "categorys": [
-        "Resource",
-        "Storage"
-      ]
-    },
-    {
-      "name": "Resource Amazon Elastic File System Standard Infrequent Access",
-      "component": "ResourceAmazonElasticFileSystemStandardInfrequentAccess",
-      "importComponent": "import ResourceAmazonElasticFileSystemStandardInfrequentAccess from 'aws-react-icons/lib/icons/ResourceAmazonElasticFileSystemStandardInfrequentAccess';",
       "categorys": [
         "Resource",
         "Storage"
@@ -7894,9 +7138,9 @@
       ]
     },
     {
-      "name": "Resource AWS Backup AWS Backupsupportfor VMware Workloads",
-      "component": "ResourceAWSBackupAWSBackupsupportforVMwareWorkloads",
-      "importComponent": "import ResourceAWSBackupAWSBackupsupportforVMwareWorkloads from 'aws-react-icons/lib/icons/ResourceAWSBackupAWSBackupsupportforVMwareWorkloads';",
+      "name": "Resource AWS Backup AWS Backup Supportfor VMware Workloads",
+      "component": "ResourceAWSBackupAWSBackupSupportforVMwareWorkloads",
+      "importComponent": "import ResourceAWSBackupAWSBackupSupportforVMwareWorkloads from 'aws-react-icons/lib/icons/ResourceAWSBackupAWSBackupSupportforVMwareWorkloads';",
       "categorys": [
         "Resource",
         "Storage"

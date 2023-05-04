@@ -12,6 +12,10 @@ type ObjConfig = {
   dirname: string;
 };
 
+function removeSpecialCharacters(str: string): string {
+  return str.replace(/[^a-zA-Z0-9]/g, '');
+}
+
 const generateSvgComponent = async (rootDir: string) => {
   if (fs.existsSync(`${__dirname}/../build`)) {
     fs.rmSync(`${__dirname}/../build`, { recursive: true });
@@ -44,7 +48,7 @@ const generateSvgComponent = async (rootDir: string) => {
 
   await Promise.all(
     objConfig.map(async (entry) => {
-      const name = `${entry.name}`;
+      const name = removeSpecialCharacters(entry.name);
 
       const icon = await fsAsync.readFile(
         `${__dirname}/../icons/${entry.filename}`,
@@ -54,7 +58,7 @@ const generateSvgComponent = async (rootDir: string) => {
 
       const dir = `${__dirname}/../build/icons`;
 
-      const reactName = `${name}`;
+      const reactName = removeSpecialCharacters(name);
 
       index.push([reactName, `./icons/${reactName}`]);
 
