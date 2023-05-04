@@ -2,6 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 
+function removeSpecialCharacters(str: string): string {
+  return str.replace(/[^a-zA-Z0-9]/g, '');
+}
+
 (async () => {
   const files: RecursiveDirectory = (await recursiveDirectory(
     './aws-icons',
@@ -35,23 +39,27 @@ import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
       prefix = 'Resource';
     }
 
-    name = `${prefix} ${filename
-      .replace(/([A-Z]+)(?=[A-Z][a-z0-9])/g, (match) =>
-        match.length > 1 ? match.charAt(0) + match.slice(1) + ' ' : match,
-      )
-      .replace(/([a-z])([A-Z])/g, '$1 $2')
-      .replace('.svg', '')
-      .replaceAll('Io T', 'IoT ')
-      .replace('AP Is', 'APIs')
-      .replace('HTTP 2', 'HTTP2 ')
-      .replace('S3', 'S3 ')
-      .replace('FSxfor', 'FSx for')
-      .replace('RA 3', 'RA3')
-      .replace('EC2', 'EC2 ')
-      .replace('Lo Ra WAN', 'LoRaWAN')
-      .trim()}`;
+    name = removeSpecialCharacters(
+      `${prefix} ${filename
+        .replace(/([A-Z]+)(?=[A-Z][a-z0-9])/g, (match) =>
+          match.length > 1 ? match.charAt(0) + match.slice(1) + ' ' : match,
+        )
+        .replace(/([a-z])([A-Z])/g, '$1 $2')
+        .replace('.svg', '')
+        .replaceAll('Io T', 'IoT ')
+        .replace('AP Is', 'APIs')
+        .replace('HTTP 2', 'HTTP2 ')
+        .replace('S3', 'S3 ')
+        .replace('FSxfor', 'FSx for')
+        .replace('RA 3', 'RA3')
+        .replace('EC2', 'EC2 ')
+        .replace('Lo Ra WAN', 'LoRaWAN')
+        .trim()}`,
+    );
 
-    component = `${prefix}${filename.replace('.svg', '')}`;
+    component = removeSpecialCharacters(
+      `${prefix}${filename.replace('.svg', '')}`,
+    );
 
     importComponent = `import ${component} from 'aws-react-icons/lib/icons/${component}';`;
 
