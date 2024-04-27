@@ -9,7 +9,7 @@
 
   <br/>
 
-  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/">AWS Architecture Icons</a></p>
+  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version Q1 2024</span></a></p>
 </div>
 
 <div align="center">
@@ -51,12 +51,12 @@ pnpm add aws-react-icons
 
 ```tsx
 // single import
-import ArchitectureAmazonEC2 from 'aws-react-icons/lib/icons/ArchitectureAmazonEC2';
+import ArchitectureServiceAmazonEC2 from 'aws-react-icons/icons/ArchitectureServiceAmazonEC2';
 
 const App = () => {
   return (
     <div>
-      <ArchitectureAmazonEC2 size={30} />
+      <ArchitectureServiceAmazonEC2 size={30} />
     </div>
   );
 };
@@ -69,15 +69,15 @@ OR
 ```tsx
 // multiple imports
 import {
-  ArchitectureAmazonEC2,
-  ArchitectureAWSCloudFormation,
+  ArchitectureServiceAmazonEC2,
+  ArchitectureServiceAWSCloudFormation,
 } from 'aws-react-icons';
 
 const App = () => {
   return (
     <div>
-      <ArchitectureAmazonEC2 size={30} />
-      <ArchitectureAWSCloudFormation size={30} />
+      <ArchitectureServiceAmazonEC2 size={30} />
+      <ArchitectureServiceAWSCloudFormation size={30} />
     </div>
   );
 };

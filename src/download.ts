@@ -50,7 +50,7 @@ async function unzipFile(zipFilePath: string, unzippedPath: string) {
 (async () => {
   // source: https://aws.amazon.com/architecture/icons/
   const fileUrl =
-    'https://d1.awsstatic.com/webteam/architecture-icons/q2-2023/Asset-Package_04282023.ca9655a386a46bda0b6238cca2651e8f27fcb5c9.zip';
+    'https://d1.awsstatic.com/webteam/architecture-icons/q1-2024/Asset-Package_02062024.c893ec2a2df5a0b881da3ad9a3213e5f6c8664d4.zip';
   const downloadedFilePath = join(process.cwd(), 'downloadedFile.zip');
   const unzippedPath = join(process.cwd(), 'aws-icons');
 
