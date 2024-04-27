@@ -31,8 +31,10 @@ function removeSpecialCharacters(str: string): string {
   files.forEach((file) => {
     const { fullpath, filename } = file;
 
-    if (fullpath.includes('Architecture-Service-Icons')) {
-      prefix = 'Architecture';
+    if (fullpath.includes('Architecture-Group-Icons')) {
+      prefix = 'ArchitectureGroup';
+    } else if (fullpath.includes('Architecture-Service-Icons')) {
+      prefix = 'ArchitectureService';
     } else if (fullpath.includes('Category-Icons')) {
       prefix = 'Category';
     } else if (fullpath.includes('Resource-Icons')) {
@@ -46,6 +48,7 @@ function removeSpecialCharacters(str: string): string {
         )
         .replace(/([a-z])([A-Z])/g, '$1 $2')
         .replace('.svg', '')
+        .replace('32', '')
         .replaceAll('Io T', 'IoT ')
         .replace('AP Is', 'APIs')
         .replace('HTTP 2', 'HTTP2 ')
@@ -61,9 +64,11 @@ function removeSpecialCharacters(str: string): string {
       `${prefix}${filename.replace('.svg', '')}`,
     );
 
-    importComponent = `import ${component} from 'aws-react-icons/lib/icons/${component}';`;
+    importComponent = `import ${component} from 'aws-react-icons/icons/${component}';`;
 
-    if (fullpath.includes('Architecture-Service-Icons')) {
+    if (fullpath.includes('Architecture-Group-Icons')) {
+      prefix = 'Architecture Group';
+    } else if (fullpath.includes('Architecture-Service-Icons')) {
       categorys.push('Architecture Service');
     } else if (fullpath.includes('Category-Icons')) {
       categorys.push('Category');
@@ -107,9 +112,9 @@ function removeSpecialCharacters(str: string): string {
     data.push(obj);
   });
 
-  data.sort((a, b) => a.categorys[1].localeCompare(b.categorys[1]));
+  data.sort((a, b) => a?.categorys[1]?.localeCompare(b.categorys[1]));
 
-  data.sort((a, b) => a.categorys[0].localeCompare(b.categorys[0]));
+  data.sort((a, b) => a?.categorys[0]?.localeCompare(b.categorys[0]));
 
   fs.writeFileSync(
     path.resolve(__dirname, 'build.config.json'),

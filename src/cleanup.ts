@@ -59,7 +59,7 @@ async function renameFiles(mainDir: string): Promise<void> {
     const baseName = path.basename(entryPath, ext);
     const newName =
       baseName.replace(
-        /^Arch_|_48|Arch-Category_|Res_|_Light|-|_|&| |\./g,
+        /^Arch_|_48|32|Arch-Category_|Res_|_Light|-|_|&| |\./g,
         '',
       ) + ext;
 
@@ -89,8 +89,10 @@ async function copySvgFilesToIconsDirectory(mainDir: string): Promise<void> {
   for (const entry of dirEntries) {
     const entryPath = path.join(mainDir, entry.name);
 
-    if (entryPath.includes('Architecture-Service-Icons')) {
-      prefix = 'Architecture';
+    if (entryPath.includes('Architecture-Group-Icons')) {
+      prefix = 'ArchitectureGroup';
+    } else if (entryPath.includes('Architecture-Service-Icons')) {
+      prefix = 'ArchitectureService';
     } else if (entryPath.includes('Category-Icons')) {
       prefix = 'Category';
     } else if (entryPath.includes('Resource-Icons')) {
