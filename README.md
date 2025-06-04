@@ -9,7 +9,7 @@
 
   <br/>
 
-  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version Q1 2024</span></a></p>
+  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version Q1 2025</span></a></p>
 </div>
 
 <div align="center">

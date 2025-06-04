@@ -3,7 +3,7 @@ import { createReadStream, createWriteStream, existsSync, promises } from 'fs';
 import type { RequestOptions } from 'https';
 import https from 'https';
 import { join } from 'path';
-import unzipper from 'unzipper';
+import AdmZip from 'adm-zip';
 import type { URL } from 'url';
 
 async function downloadFile(
@@ -40,17 +40,19 @@ async function downloadFile(
 
 async function unzipFile(zipFilePath: string, unzippedPath: string) {
   return new Promise<void>((resolve, reject) => {
-    createReadStream(zipFilePath)
-      .pipe(unzipper.Extract({ path: unzippedPath }))
-      .on('close', resolve)
-      .on('error', reject);
+    try {
+      const zip = new AdmZip(zipFilePath);
+      zip.extractAllTo(unzippedPath, true);
+      resolve();
+    } catch (error) {
+      reject(error);
+    }
   });
 }
 
 (async () => {
-  // source: https://aws.amazon.com/architecture/icons/
   const fileUrl =
-    'https://d1.awsstatic.com/webteam/architecture-icons/q1-2024/Asset-Package_02062024.c893ec2a2df5a0b881da3ad9a3213e5f6c8664d4.zip';
+    'https://d1.awsstatic.com/webteam/architecture-icons/q1-2025/Asset-Package_02072025.dee42cd0a6eaacc3da1ad9519579357fb546f803.zip';
   const downloadedFilePath = join(process.cwd(), 'downloadedFile.zip');
   const unzippedPath = join(process.cwd(), 'aws-icons');
 
