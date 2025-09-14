@@ -9,7 +9,7 @@
 
   <br/>
 
-  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version Q1 2025</span></a></p>
+  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version 07/31/2025</span></a></p>
 </div>
 
 <div align="center">
@@ -51,7 +51,7 @@ pnpm add aws-react-icons
 
 ```tsx
 // single import
-import ArchitectureServiceAmazonEC2 from 'aws-react-icons/icons/ArchitectureServiceAmazonEC2';
+import ArchitectureServiceAmazonEC2 from "aws-react-icons/icons/ArchitectureServiceAmazonEC2";
 
 const App = () => {
   return (
@@ -71,7 +71,7 @@ OR
 import {
   ArchitectureServiceAmazonEC2,
   ArchitectureServiceAWSCloudFormation,
-} from 'aws-react-icons';
+} from "aws-react-icons";
 
 const App = () => {
   return (

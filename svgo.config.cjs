@@ -1,4 +1,7 @@
-module.exports = {
+const { v4: uuid } = require('uuid');
+
+/** @type {import('svgo').Config} */
+const svgoConfig = {
   plugins: [
     {
       name: 'preset-default',
@@ -9,7 +12,16 @@ module.exports = {
       },
     },
     'convertStyleToAttrs',
-    'prefixIds',
+    'cleanupIds',
+    {
+      name: 'prefixIds',
+      params: {
+        delim: '',
+        prefix: () => `svg-${uuid()}-`,
+      },
+    },
     'removeDimensions',
   ],
 };
+
+module.exports = svgoConfig;
