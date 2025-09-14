@@ -1,5 +1,5 @@
-import fs from 'fs';
-import fsAsync from 'fs/promises';
+import fs from 'node:fs';
+import fsAsync from 'node:fs/promises';
 import { JSDOM } from 'jsdom';
 import { RecursiveDirectory, recursiveDirectory } from 'recursive-directory';
 import svgtojsx from 'svg-to-jsx';

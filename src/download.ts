@@ -1,10 +1,10 @@
-import type { PathLike } from 'fs';
-import { createReadStream, createWriteStream, existsSync, promises } from 'fs';
-import type { RequestOptions } from 'https';
-import https from 'https';
-import { join } from 'path';
+import type { PathLike } from 'node:fs';
+import { createWriteStream, existsSync, promises } from 'node:fs';
+import type { RequestOptions } from 'node:https';
+import https from 'node:https';
+import { join } from 'node:path';
+import type { URL } from 'node:url';
 import AdmZip from 'adm-zip';
-import type { URL } from 'url';
 
 async function downloadFile(
   url: string | RequestOptions | URL,
@@ -52,7 +52,7 @@ async function unzipFile(zipFilePath: string, unzippedPath: string) {
 
 (async () => {
   const fileUrl =
-    'https://d1.awsstatic.com/webteam/architecture-icons/q1-2025/Asset-Package_02072025.dee42cd0a6eaacc3da1ad9519579357fb546f803.zip';
+    'https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/architecture/approved/architecture-icons/Asset-Package_07312025.49d3aab7f9e6131e51ade8f7c6c8b961ee7d3bb1.zip';
   const downloadedFilePath = join(process.cwd(), 'downloadedFile.zip');
   const unzippedPath = join(process.cwd(), 'aws-icons');
 
