@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.2.4/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.10/schema.json",
   "files": {
     "ignoreUnknown": true,
     "includes": [
@@ -8,8 +8,8 @@
       "!.github/CODEOWNERS",
       "!**/node_modules/**/*",
       "!**/coverage/**/*",
-      "!**/src/generated/**/*"
-    ]
+      "!**/src/generated/**/*",
+    ],
   },
   "formatter": {
     "enabled": true,
@@ -30,8 +30,8 @@
       "!**/build",
       "!**/icons",
       "!**/lib",
-      "!**/svg"
-    ]
+      "!**/svg",
+    ],
   },
   "linter": {
     "enabled": true,
@@ -44,7 +44,7 @@
         "noForEach": "off",
         "noUselessCatch": "error",
         "noUselessEscapeInRegex": "off",
-        "noUselessTypeConstraint": "error"
+        "noUselessTypeConstraint": "error",
       },
       "correctness": {
         "noConstAssign": "error",
@@ -70,7 +70,7 @@
         "useIsNan": "error",
         "useValidForDirection": "error",
         "useValidTypeof": "error",
-        "useYield": "error"
+        "useYield": "error",
       },
       "style": {
         "noCommonJs": "error",
@@ -87,7 +87,7 @@
         "useEnumInitializers": "error",
         "useNumberNamespace": "error",
         "useSelfClosingElements": "error",
-        "useSingleVarDeclarator": "error"
+        "useSingleVarDeclarator": "error",
       },
       "suspicious": {
         "noAsyncPromiseExecutor": "error",
@@ -122,8 +122,8 @@
         "noUselessRegexBackrefs": "error",
         "noWith": "error",
         "useGetterReturn": "error",
-        "useNamespaceKeyword": "error"
-      }
+        "useNamespaceKeyword": "error",
+      },
     },
     "includes": [
       "**",
@@ -132,8 +132,8 @@
       "!**/build",
       "!**/icons",
       "!**/lib",
-      "!**/svg"
-    ]
+      "!**/svg",
+    ],
   },
   "javascript": {
     "parser": { "unsafeParameterDecoratorsEnabled": true },
@@ -146,8 +146,8 @@
       "bracketSameLine": false,
       "quoteStyle": "single",
       "attributePosition": "auto",
-      "bracketSpacing": true
-    }
+      "bracketSpacing": true,
+    },
   },
   "html": { "formatter": { "selfCloseVoidElements": "always" } },
   "overrides": [
@@ -164,7 +164,7 @@
             "noSetterReturn": "off",
             "noUndeclaredVariables": "off",
             "noUnreachable": "off",
-            "noUnreachableSuper": "off"
+            "noUnreachableSuper": "off",
           },
           "style": { "useConst": "error" },
           "suspicious": {
@@ -178,14 +178,14 @@
             "noUnsafeNegation": "off",
             "noVar": "error",
             "noWith": "off",
-            "useGetterReturn": "off"
-          }
-        }
-      }
-    }
+            "useGetterReturn": "off",
+          },
+        },
+      },
+    },
   ],
   "assist": {
     "enabled": null,
-    "actions": { "source": { "organizeImports": "on" } }
-  }
+    "actions": { "source": { "organizeImports": "on" } },
+  },
 }

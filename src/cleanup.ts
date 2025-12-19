@@ -19,7 +19,7 @@ async function deleteDirectories(mainDir: string): Promise<void> {
         entry.name.includes('64') ||
         entry.name.includes('_48_Dark')
       ) {
-        await fs.promises.rmdir(dirPath, { recursive: true });
+        await fs.promises.rm(dirPath, { recursive: true, force: true });
         console.info(`Deleted directory: ${dirPath}`);
       } else {
         await deleteDirectories(dirPath);
