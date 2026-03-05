@@ -52,7 +52,7 @@ async function unzipFile(zipFilePath: string, unzippedPath: string) {
 
 (async () => {
   const fileUrl =
-    'https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/architecture/approved/architecture-icons/Asset-Package_07312025.49d3aab7f9e6131e51ade8f7c6c8b961ee7d3bb1.zip';
+    'https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/architecture/approved/architecture-icons/Icon-package_01302026.31b40d126ed27079b708594940ad577a86150582.zip';
   const downloadedFilePath = join(process.cwd(), 'downloadedFile.zip');
   const unzippedPath = join(process.cwd(), 'aws-icons');
 
