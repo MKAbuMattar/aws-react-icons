@@ -109,15 +109,6 @@
       ]
     },
     {
-      "name": "ArchitectureServiceAmazonQuickSight",
-      "component": "ArchitectureServiceAmazonQuickSight",
-      "importComponent": "import ArchitectureServiceAmazonQuickSight from 'aws-react-icons/icons/ArchitectureServiceAmazonQuickSight';",
-      "categorys": [
-        "Architecture Service",
-        "Analytics"
-      ]
-    },
-    {
       "name": "ArchitectureServiceAmazonRedshift",
       "component": "ArchitectureServiceAmazonRedshift",
       "importComponent": "import ArchitectureServiceAmazonRedshift from 'aws-react-icons/icons/ArchitectureServiceAmazonRedshift';",
@@ -195,7 +186,7 @@
       "importComponent": "import ArchitectureServiceAmazonAppFlow from 'aws-react-icons/icons/ArchitectureServiceAmazonAppFlow';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -204,7 +195,7 @@
       "importComponent": "import ArchitectureServiceAmazonEventBridge from 'aws-react-icons/icons/ArchitectureServiceAmazonEventBridge';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -213,7 +204,7 @@
       "importComponent": "import ArchitectureServiceAmazonManagedWorkflowsforApacheAirflow from 'aws-react-icons/icons/ArchitectureServiceAmazonManagedWorkflowsforApacheAirflow';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -222,7 +213,7 @@
       "importComponent": "import ArchitectureServiceAmazonMQ from 'aws-react-icons/icons/ArchitectureServiceAmazonMQ';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -231,7 +222,7 @@
       "importComponent": "import ArchitectureServiceAmazonSimpleNotificationService from 'aws-react-icons/icons/ArchitectureServiceAmazonSimpleNotificationService';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -240,7 +231,7 @@
       "importComponent": "import ArchitectureServiceAmazonSimpleQueueService from 'aws-react-icons/icons/ArchitectureServiceAmazonSimpleQueueService';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -249,7 +240,7 @@
       "importComponent": "import ArchitectureServiceAWSAppSync from 'aws-react-icons/icons/ArchitectureServiceAWSAppSync';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -258,7 +249,7 @@
       "importComponent": "import ArchitectureServiceAWSB2BDataInterchange from 'aws-react-icons/icons/ArchitectureServiceAWSB2BDataInterchange';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -267,7 +258,7 @@
       "importComponent": "import ArchitectureServiceAWSExpressWorkflows from 'aws-react-icons/icons/ArchitectureServiceAWSExpressWorkflows';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -276,7 +267,7 @@
       "importComponent": "import ArchitectureServiceAWSStepFunctions from 'aws-react-icons/icons/ArchitectureServiceAWSStepFunctions';",
       "categorys": [
         "Architecture Service",
-        "App Integration"
+        "Application Integration"
       ]
     },
     {
@@ -292,6 +283,15 @@
       "name": "ArchitectureServiceAmazonBedrock",
       "component": "ArchitectureServiceAmazonBedrock",
       "importComponent": "import ArchitectureServiceAmazonBedrock from 'aws-react-icons/icons/ArchitectureServiceAmazonBedrock';",
+      "categorys": [
+        "Architecture Service",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "name": "ArchitectureServiceAmazonBedrockAgentCore",
+      "component": "ArchitectureServiceAmazonBedrockAgentCore",
+      "importComponent": "import ArchitectureServiceAmazonBedrockAgentCore from 'aws-react-icons/icons/ArchitectureServiceAmazonBedrockAgentCore';",
       "categorys": [
         "Architecture Service",
         "Artificial Intelligence"
@@ -391,15 +391,6 @@
       "name": "ArchitectureServiceAmazonLookoutforEquipment",
       "component": "ArchitectureServiceAmazonLookoutforEquipment",
       "importComponent": "import ArchitectureServiceAmazonLookoutforEquipment from 'aws-react-icons/icons/ArchitectureServiceAmazonLookoutforEquipment';",
-      "categorys": [
-        "Architecture Service",
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAmazonLookoutforMetrics",
-      "component": "ArchitectureServiceAmazonLookoutforMetrics",
-      "importComponent": "import ArchitectureServiceAmazonLookoutforMetrics from 'aws-react-icons/icons/ArchitectureServiceAmazonLookoutforMetrics';",
       "categorys": [
         "Architecture Service",
         "Artificial Intelligence"
@@ -541,15 +532,6 @@
       ]
     },
     {
-      "name": "ArchitectureServiceAWSDeepComposer",
-      "component": "ArchitectureServiceAWSDeepComposer",
-      "importComponent": "import ArchitectureServiceAWSDeepComposer from 'aws-react-icons/icons/ArchitectureServiceAWSDeepComposer';",
-      "categorys": [
-        "Architecture Service",
-        "Artificial Intelligence"
-      ]
-    },
-    {
       "name": "ArchitectureServiceAWSDeepLearningAMIs",
       "component": "ArchitectureServiceAWSDeepLearningAMIs",
       "importComponent": "import ArchitectureServiceAWSDeepLearningAMIs from 'aws-react-icons/icons/ArchitectureServiceAWSDeepLearningAMIs';",
@@ -658,24 +640,6 @@
       ]
     },
     {
-      "name": "ArchitectureServiceAmazonQuantumLedgerDatabase",
-      "component": "ArchitectureServiceAmazonQuantumLedgerDatabase",
-      "importComponent": "import ArchitectureServiceAmazonQuantumLedgerDatabase from 'aws-react-icons/icons/ArchitectureServiceAmazonQuantumLedgerDatabase';",
-      "categorys": [
-        "Architecture Service",
-        "Blockchain"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAlexaForBusiness",
-      "component": "ArchitectureServiceAlexaForBusiness",
-      "importComponent": "import ArchitectureServiceAlexaForBusiness from 'aws-react-icons/icons/ArchitectureServiceAlexaForBusiness';",
-      "categorys": [
-        "Architecture Service",
-        "Business Applications"
-      ]
-    },
-    {
       "name": "ArchitectureServiceAmazonChime",
       "component": "ArchitectureServiceAmazonChime",
       "importComponent": "import ArchitectureServiceAmazonChime from 'aws-react-icons/icons/ArchitectureServiceAmazonChime';",
@@ -715,6 +679,15 @@
       "name": "ArchitectureServiceAmazonPinpointAPIs",
       "component": "ArchitectureServiceAmazonPinpointAPIs",
       "importComponent": "import ArchitectureServiceAmazonPinpointAPIs from 'aws-react-icons/icons/ArchitectureServiceAmazonPinpointAPIs';",
+      "categorys": [
+        "Architecture Service",
+        "Business Applications"
+      ]
+    },
+    {
+      "name": "ArchitectureServiceAmazonQuickSuite",
+      "component": "ArchitectureServiceAmazonQuickSuite",
+      "importComponent": "import ArchitectureServiceAmazonQuickSuite from 'aws-react-icons/icons/ArchitectureServiceAmazonQuickSuite';",
       "categorys": [
         "Architecture Service",
         "Business Applications"
@@ -1063,15 +1036,6 @@
       ]
     },
     {
-      "name": "ArchitectureServiceNICEEnginFrame",
-      "component": "ArchitectureServiceNICEEnginFrame",
-      "importComponent": "import ArchitectureServiceNICEEnginFrame from 'aws-react-icons/icons/ArchitectureServiceNICEEnginFrame';",
-      "categorys": [
-        "Architecture Service",
-        "Compute"
-      ]
-    },
-    {
       "name": "ArchitectureServiceAmazonECSAnywhere",
       "component": "ArchitectureServiceAmazonECSAnywhere",
       "importComponent": "import ArchitectureServiceAmazonECSAnywhere from 'aws-react-icons/icons/ArchitectureServiceAmazonECSAnywhere';",
@@ -1084,15 +1048,6 @@
       "name": "ArchitectureServiceAmazonEKSAnywhere",
       "component": "ArchitectureServiceAmazonEKSAnywhere",
       "importComponent": "import ArchitectureServiceAmazonEKSAnywhere from 'aws-react-icons/icons/ArchitectureServiceAmazonEKSAnywhere';",
-      "categorys": [
-        "Architecture Service",
-        "Containers"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAmazonEKSCloud",
-      "component": "ArchitectureServiceAmazonEKSCloud",
-      "importComponent": "import ArchitectureServiceAmazonEKSCloud from 'aws-react-icons/icons/ArchitectureServiceAmazonEKSCloud';",
       "categorys": [
         "Architecture Service",
         "Containers"
@@ -1230,7 +1185,7 @@
       "importComponent": "import ArchitectureServiceAmazonAurora from 'aws-react-icons/icons/ArchitectureServiceAmazonAurora';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1239,7 +1194,7 @@
       "importComponent": "import ArchitectureServiceAmazonDocumentDB from 'aws-react-icons/icons/ArchitectureServiceAmazonDocumentDB';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1248,7 +1203,7 @@
       "importComponent": "import ArchitectureServiceAmazonDynamoDB from 'aws-react-icons/icons/ArchitectureServiceAmazonDynamoDB';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1257,7 +1212,7 @@
       "importComponent": "import ArchitectureServiceAmazonElastiCache from 'aws-react-icons/icons/ArchitectureServiceAmazonElastiCache';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1266,7 +1221,7 @@
       "importComponent": "import ArchitectureServiceAmazonKeyspaces from 'aws-react-icons/icons/ArchitectureServiceAmazonKeyspaces';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1275,7 +1230,7 @@
       "importComponent": "import ArchitectureServiceAmazonMemoryDB from 'aws-react-icons/icons/ArchitectureServiceAmazonMemoryDB';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1284,7 +1239,7 @@
       "importComponent": "import ArchitectureServiceAmazonNeptune from 'aws-react-icons/icons/ArchitectureServiceAmazonNeptune';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1293,7 +1248,7 @@
       "importComponent": "import ArchitectureServiceAmazonRDS from 'aws-react-icons/icons/ArchitectureServiceAmazonRDS';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1302,7 +1257,7 @@
       "importComponent": "import ArchitectureServiceAmazonTimestream from 'aws-react-icons/icons/ArchitectureServiceAmazonTimestream';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1311,7 +1266,7 @@
       "importComponent": "import ArchitectureServiceAWSDatabaseMigrationService from 'aws-react-icons/icons/ArchitectureServiceAWSDatabaseMigrationService';",
       "categorys": [
         "Architecture Service",
-        "Database",
+        "Databases",
         "DMS"
       ]
     },
@@ -1321,7 +1276,7 @@
       "importComponent": "import ArchitectureServiceOracleDatabaseatAWS from 'aws-react-icons/icons/ArchitectureServiceOracleDatabaseatAWS';",
       "categorys": [
         "Architecture Service",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -1469,18 +1424,9 @@
       ]
     },
     {
-      "name": "ArchitectureServiceAmazonAppStream2",
-      "component": "ArchitectureServiceAmazonAppStream2",
-      "importComponent": "import ArchitectureServiceAmazonAppStream2 from 'aws-react-icons/icons/ArchitectureServiceAmazonAppStream2';",
-      "categorys": [
-        "Architecture Service",
-        "End User Computing"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAmazonWorkSpacesFamily",
-      "component": "ArchitectureServiceAmazonWorkSpacesFamily",
-      "importComponent": "import ArchitectureServiceAmazonWorkSpacesFamily from 'aws-react-icons/icons/ArchitectureServiceAmazonWorkSpacesFamily';",
+      "name": "ArchitectureServiceAmazonWorkSpaces",
+      "component": "ArchitectureServiceAmazonWorkSpaces",
+      "importComponent": "import ArchitectureServiceAmazonWorkSpaces from 'aws-react-icons/icons/ArchitectureServiceAmazonWorkSpaces';",
       "categorys": [
         "Architecture Service",
         "End User Computing"
@@ -1556,26 +1502,6 @@
       "categorys": [
         "Architecture Service",
         "General Icons"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAWSIoTAnalytics",
-      "component": "ArchitectureServiceAWSIoTAnalytics",
-      "importComponent": "import ArchitectureServiceAWSIoTAnalytics from 'aws-react-icons/icons/ArchitectureServiceAWSIoTAnalytics';",
-      "categorys": [
-        "Architecture Service",
-        "Internet of Things",
-        "IoT"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAWSIoTButton",
-      "component": "ArchitectureServiceAWSIoTButton",
-      "importComponent": "import ArchitectureServiceAWSIoTButton from 'aws-react-icons/icons/ArchitectureServiceAWSIoTButton';",
-      "categorys": [
-        "Architecture Service",
-        "Internet of Things",
-        "IoT"
       ]
     },
     {
@@ -1684,7 +1610,7 @@
       "importComponent": "import ArchitectureServiceAmazonCloudWatch from 'aws-react-icons/icons/ArchitectureServiceAmazonCloudWatch';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1693,7 +1619,7 @@
       "importComponent": "import ArchitectureServiceAmazonManagedGrafana from 'aws-react-icons/icons/ArchitectureServiceAmazonManagedGrafana';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1702,7 +1628,7 @@
       "importComponent": "import ArchitectureServiceAmazonManagedServiceforPrometheus from 'aws-react-icons/icons/ArchitectureServiceAmazonManagedServiceforPrometheus';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1711,7 +1637,7 @@
       "importComponent": "import ArchitectureServiceAWSAppConfig from 'aws-react-icons/icons/ArchitectureServiceAWSAppConfig';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1720,7 +1646,7 @@
       "importComponent": "import ArchitectureServiceAWSApplicationAutoScaling from 'aws-react-icons/icons/ArchitectureServiceAWSApplicationAutoScaling';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1729,7 +1655,7 @@
       "importComponent": "import ArchitectureServiceAWSAutoScaling from 'aws-react-icons/icons/ArchitectureServiceAWSAutoScaling';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1738,7 +1664,7 @@
       "importComponent": "import ArchitectureServiceAWSBackintAgent from 'aws-react-icons/icons/ArchitectureServiceAWSBackintAgent';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1747,7 +1673,7 @@
       "importComponent": "import ArchitectureServiceAWSChatbot from 'aws-react-icons/icons/ArchitectureServiceAWSChatbot';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1756,7 +1682,7 @@
       "importComponent": "import ArchitectureServiceAWSCloudFormation from 'aws-react-icons/icons/ArchitectureServiceAWSCloudFormation';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1765,7 +1691,7 @@
       "importComponent": "import ArchitectureServiceAWSCloudTrail from 'aws-react-icons/icons/ArchitectureServiceAWSCloudTrail';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1774,7 +1700,7 @@
       "importComponent": "import ArchitectureServiceAWSComputeOptimizer from 'aws-react-icons/icons/ArchitectureServiceAWSComputeOptimizer';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1783,7 +1709,7 @@
       "importComponent": "import ArchitectureServiceAWSConfig from 'aws-react-icons/icons/ArchitectureServiceAWSConfig';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1792,7 +1718,7 @@
       "importComponent": "import ArchitectureServiceAWSConsoleMobileApplication from 'aws-react-icons/icons/ArchitectureServiceAWSConsoleMobileApplication';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1801,7 +1727,16 @@
       "importComponent": "import ArchitectureServiceAWSControlTower from 'aws-react-icons/icons/ArchitectureServiceAWSControlTower';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
+      ]
+    },
+    {
+      "name": "ArchitectureServiceAWSDevOpsAgent",
+      "component": "ArchitectureServiceAWSDevOpsAgent",
+      "importComponent": "import ArchitectureServiceAWSDevOpsAgent from 'aws-react-icons/icons/ArchitectureServiceAWSDevOpsAgent';",
+      "categorys": [
+        "Architecture Service",
+        "Management Tools"
       ]
     },
     {
@@ -1810,7 +1745,7 @@
       "importComponent": "import ArchitectureServiceAWSDistroforOpenTelemetry from 'aws-react-icons/icons/ArchitectureServiceAWSDistroforOpenTelemetry';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1819,7 +1754,7 @@
       "importComponent": "import ArchitectureServiceAWSHealthDashboard from 'aws-react-icons/icons/ArchitectureServiceAWSHealthDashboard';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1828,7 +1763,7 @@
       "importComponent": "import ArchitectureServiceAWSLaunchWizard from 'aws-react-icons/icons/ArchitectureServiceAWSLaunchWizard';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1837,7 +1772,7 @@
       "importComponent": "import ArchitectureServiceAWSLicenseManager from 'aws-react-icons/icons/ArchitectureServiceAWSLicenseManager';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1846,7 +1781,7 @@
       "importComponent": "import ArchitectureServiceAWSManagementConsole from 'aws-react-icons/icons/ArchitectureServiceAWSManagementConsole';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1855,7 +1790,16 @@
       "importComponent": "import ArchitectureServiceAWSOrganizations from 'aws-react-icons/icons/ArchitectureServiceAWSOrganizations';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
+      ]
+    },
+    {
+      "name": "ArchitectureServiceAWSPartnerCentral",
+      "component": "ArchitectureServiceAWSPartnerCentral",
+      "importComponent": "import ArchitectureServiceAWSPartnerCentral from 'aws-react-icons/icons/ArchitectureServiceAWSPartnerCentral';",
+      "categorys": [
+        "Architecture Service",
+        "Management Tools"
       ]
     },
     {
@@ -1864,7 +1808,7 @@
       "importComponent": "import ArchitectureServiceAWSProton from 'aws-react-icons/icons/ArchitectureServiceAWSProton';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1873,7 +1817,7 @@
       "importComponent": "import ArchitectureServiceAWSResilienceHub from 'aws-react-icons/icons/ArchitectureServiceAWSResilienceHub';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1882,7 +1826,7 @@
       "importComponent": "import ArchitectureServiceAWSResourceExplorer from 'aws-react-icons/icons/ArchitectureServiceAWSResourceExplorer';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1891,7 +1835,7 @@
       "importComponent": "import ArchitectureServiceAWSServiceCatalog from 'aws-react-icons/icons/ArchitectureServiceAWSServiceCatalog';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1900,7 +1844,7 @@
       "importComponent": "import ArchitectureServiceAWSServiceManagementConnector from 'aws-react-icons/icons/ArchitectureServiceAWSServiceManagementConnector';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1909,7 +1853,7 @@
       "importComponent": "import ArchitectureServiceAWSSystemsManager from 'aws-react-icons/icons/ArchitectureServiceAWSSystemsManager';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1918,7 +1862,7 @@
       "importComponent": "import ArchitectureServiceAWSTelcoNetworkBuilder from 'aws-react-icons/icons/ArchitectureServiceAWSTelcoNetworkBuilder';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1927,7 +1871,7 @@
       "importComponent": "import ArchitectureServiceAWSTrustedAdvisor from 'aws-react-icons/icons/ArchitectureServiceAWSTrustedAdvisor';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1936,7 +1880,7 @@
       "importComponent": "import ArchitectureServiceAWSUserNotifications from 'aws-react-icons/icons/ArchitectureServiceAWSUserNotifications';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
+        "Management Tools"
       ]
     },
     {
@@ -1945,16 +1889,7 @@
       "importComponent": "import ArchitectureServiceAWSWellArchitectedTool from 'aws-react-icons/icons/ArchitectureServiceAWSWellArchitectedTool';",
       "categorys": [
         "Architecture Service",
-        "Management Governance"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAmazonElasticTranscoder",
-      "component": "ArchitectureServiceAmazonElasticTranscoder",
-      "importComponent": "import ArchitectureServiceAmazonElasticTranscoder from 'aws-react-icons/icons/ArchitectureServiceAmazonElasticTranscoder';",
-      "categorys": [
-        "Architecture Service",
-        "Media Services"
+        "Management Tools"
       ]
     },
     {
@@ -2114,15 +2049,6 @@
       "name": "ArchitectureServiceAWSThinkboxKrakatoa",
       "component": "ArchitectureServiceAWSThinkboxKrakatoa",
       "importComponent": "import ArchitectureServiceAWSThinkboxKrakatoa from 'aws-react-icons/icons/ArchitectureServiceAWSThinkboxKrakatoa';",
-      "categorys": [
-        "Architecture Service",
-        "Media Services"
-      ]
-    },
-    {
-      "name": "ArchitectureServiceAWSThinkboxSequoia",
-      "component": "ArchitectureServiceAWSThinkboxSequoia",
-      "importComponent": "import ArchitectureServiceAWSThinkboxSequoia from 'aws-react-icons/icons/ArchitectureServiceAWSThinkboxSequoia';",
       "categorys": [
         "Architecture Service",
         "Media Services"
@@ -2336,18 +2262,18 @@
       ]
     },
     {
-      "name": "ArchitectureServiceAWSPrivate5G",
-      "component": "ArchitectureServiceAWSPrivate5G",
-      "importComponent": "import ArchitectureServiceAWSPrivate5G from 'aws-react-icons/icons/ArchitectureServiceAWSPrivate5G';",
+      "name": "ArchitectureServiceAWSPrivateLink",
+      "component": "ArchitectureServiceAWSPrivateLink",
+      "importComponent": "import ArchitectureServiceAWSPrivateLink from 'aws-react-icons/icons/ArchitectureServiceAWSPrivateLink';",
       "categorys": [
         "Architecture Service",
         "Networking Content Delivery"
       ]
     },
     {
-      "name": "ArchitectureServiceAWSPrivateLink",
-      "component": "ArchitectureServiceAWSPrivateLink",
-      "importComponent": "import ArchitectureServiceAWSPrivateLink from 'aws-react-icons/icons/ArchitectureServiceAWSPrivateLink';",
+      "name": "ArchitectureServiceAWSRTBFabric",
+      "component": "ArchitectureServiceAWSRTBFabric",
+      "importComponent": "import ArchitectureServiceAWSRTBFabric from 'aws-react-icons/icons/ArchitectureServiceAWSRTBFabric';",
       "categorys": [
         "Architecture Service",
         "Networking Content Delivery"
@@ -2413,7 +2339,7 @@
       "importComponent": "import ArchitectureServiceAmazonCloudDirectory from 'aws-react-icons/icons/ArchitectureServiceAmazonCloudDirectory';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2422,7 +2348,7 @@
       "importComponent": "import ArchitectureServiceAmazonCognito from 'aws-react-icons/icons/ArchitectureServiceAmazonCognito';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2431,7 +2357,7 @@
       "importComponent": "import ArchitectureServiceAmazonDetective from 'aws-react-icons/icons/ArchitectureServiceAmazonDetective';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2440,7 +2366,7 @@
       "importComponent": "import ArchitectureServiceAmazonGuardDuty from 'aws-react-icons/icons/ArchitectureServiceAmazonGuardDuty';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2449,7 +2375,7 @@
       "importComponent": "import ArchitectureServiceAmazonInspector from 'aws-react-icons/icons/ArchitectureServiceAmazonInspector';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2458,7 +2384,7 @@
       "importComponent": "import ArchitectureServiceAmazonMacie from 'aws-react-icons/icons/ArchitectureServiceAmazonMacie';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2467,7 +2393,7 @@
       "importComponent": "import ArchitectureServiceAmazonSecurityLake from 'aws-react-icons/icons/ArchitectureServiceAmazonSecurityLake';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2476,7 +2402,7 @@
       "importComponent": "import ArchitectureServiceAmazonVerifiedPermissions from 'aws-react-icons/icons/ArchitectureServiceAmazonVerifiedPermissions';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2485,7 +2411,7 @@
       "importComponent": "import ArchitectureServiceAWSArtifact from 'aws-react-icons/icons/ArchitectureServiceAWSArtifact';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2494,7 +2420,7 @@
       "importComponent": "import ArchitectureServiceAWSAuditManager from 'aws-react-icons/icons/ArchitectureServiceAWSAuditManager';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2503,7 +2429,7 @@
       "importComponent": "import ArchitectureServiceAWSCertificateManager from 'aws-react-icons/icons/ArchitectureServiceAWSCertificateManager';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2512,7 +2438,7 @@
       "importComponent": "import ArchitectureServiceAWSCloudHSM from 'aws-react-icons/icons/ArchitectureServiceAWSCloudHSM';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2521,7 +2447,7 @@
       "importComponent": "import ArchitectureServiceAWSDirectoryService from 'aws-react-icons/icons/ArchitectureServiceAWSDirectoryService';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2530,7 +2456,7 @@
       "importComponent": "import ArchitectureServiceAWSFirewallManager from 'aws-react-icons/icons/ArchitectureServiceAWSFirewallManager';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2539,7 +2465,7 @@
       "importComponent": "import ArchitectureServiceAWSIAMIdentityCenter from 'aws-react-icons/icons/ArchitectureServiceAWSIAMIdentityCenter';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2548,7 +2474,7 @@
       "importComponent": "import ArchitectureServiceAWSIdentityandAccessManagement from 'aws-react-icons/icons/ArchitectureServiceAWSIdentityandAccessManagement';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2557,7 +2483,7 @@
       "importComponent": "import ArchitectureServiceAWSKeyManagementService from 'aws-react-icons/icons/ArchitectureServiceAWSKeyManagementService';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2566,7 +2492,7 @@
       "importComponent": "import ArchitectureServiceAWSNetworkFirewall from 'aws-react-icons/icons/ArchitectureServiceAWSNetworkFirewall';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2575,7 +2501,7 @@
       "importComponent": "import ArchitectureServiceAWSPaymentCryptography from 'aws-react-icons/icons/ArchitectureServiceAWSPaymentCryptography';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2584,7 +2510,7 @@
       "importComponent": "import ArchitectureServiceAWSPrivateCertificateAuthority from 'aws-react-icons/icons/ArchitectureServiceAWSPrivateCertificateAuthority';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2593,7 +2519,7 @@
       "importComponent": "import ArchitectureServiceAWSResourceAccessManager from 'aws-react-icons/icons/ArchitectureServiceAWSResourceAccessManager';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2602,7 +2528,16 @@
       "importComponent": "import ArchitectureServiceAWSSecretsManager from 'aws-react-icons/icons/ArchitectureServiceAWSSecretsManager';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
+      ]
+    },
+    {
+      "name": "ArchitectureServiceAWSSecurityAgent",
+      "component": "ArchitectureServiceAWSSecurityAgent",
+      "importComponent": "import ArchitectureServiceAWSSecurityAgent from 'aws-react-icons/icons/ArchitectureServiceAWSSecurityAgent';",
+      "categorys": [
+        "Architecture Service",
+        "Security Identity"
       ]
     },
     {
@@ -2611,7 +2546,7 @@
       "importComponent": "import ArchitectureServiceAWSSecurityHub from 'aws-react-icons/icons/ArchitectureServiceAWSSecurityHub';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2620,7 +2555,7 @@
       "importComponent": "import ArchitectureServiceAWSSecurityIncidentResponse from 'aws-react-icons/icons/ArchitectureServiceAWSSecurityIncidentResponse';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2629,7 +2564,7 @@
       "importComponent": "import ArchitectureServiceAWSShield from 'aws-react-icons/icons/ArchitectureServiceAWSShield';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2638,7 +2573,7 @@
       "importComponent": "import ArchitectureServiceAWSSigner from 'aws-react-icons/icons/ArchitectureServiceAWSSigner';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2647,7 +2582,7 @@
       "importComponent": "import ArchitectureServiceAWSWAF from 'aws-react-icons/icons/ArchitectureServiceAWSWAF';",
       "categorys": [
         "Architecture Service",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -2858,15 +2793,6 @@
       ]
     },
     {
-      "name": "CategoryContactCenter",
-      "component": "CategoryContactCenter",
-      "importComponent": "import CategoryContactCenter from 'aws-react-icons/icons/CategoryContactCenter';",
-      "categorys": [
-        "Category",
-        "CategoryContactCenter"
-      ]
-    },
-    {
       "name": "CategoryContainers",
       "component": "CategoryContainers",
       "importComponent": "import CategoryContainers from 'aws-react-icons/icons/CategoryContainers';",
@@ -2885,12 +2811,21 @@
       ]
     },
     {
-      "name": "CategoryDatabase",
-      "component": "CategoryDatabase",
-      "importComponent": "import CategoryDatabase from 'aws-react-icons/icons/CategoryDatabase';",
+      "name": "CategoryCustomerExperience",
+      "component": "CategoryCustomerExperience",
+      "importComponent": "import CategoryCustomerExperience from 'aws-react-icons/icons/CategoryCustomerExperience';",
       "categorys": [
         "Category",
-        "CategoryDatabase"
+        "CategoryCustomerExperience"
+      ]
+    },
+    {
+      "name": "CategoryDatabases",
+      "component": "CategoryDatabases",
+      "importComponent": "import CategoryDatabases from 'aws-react-icons/icons/CategoryDatabases';",
+      "categorys": [
+        "Category",
+        "CategoryDatabases"
       ]
     },
     {
@@ -2939,12 +2874,12 @@
       ]
     },
     {
-      "name": "CategoryManagementGovernance",
-      "component": "CategoryManagementGovernance",
-      "importComponent": "import CategoryManagementGovernance from 'aws-react-icons/icons/CategoryManagementGovernance';",
+      "name": "CategoryManagementTools",
+      "component": "CategoryManagementTools",
+      "importComponent": "import CategoryManagementTools from 'aws-react-icons/icons/CategoryManagementTools';",
       "categorys": [
         "Category",
-        "CategoryManagementGovernance"
+        "CategoryManagementTools"
       ]
     },
     {
@@ -2963,6 +2898,15 @@
       "categorys": [
         "Category",
         "CategoryMigrationModernization"
+      ]
+    },
+    {
+      "name": "CategoryMulticloudandHybrid",
+      "component": "CategoryMulticloudandHybrid",
+      "importComponent": "import CategoryMulticloudandHybrid from 'aws-react-icons/icons/CategoryMulticloudandHybrid';",
+      "categorys": [
+        "Category",
+        "CategoryMulticloudandHybrid"
       ]
     },
     {
@@ -2993,12 +2937,12 @@
       ]
     },
     {
-      "name": "CategorySecurityIdentityCompliance",
-      "component": "CategorySecurityIdentityCompliance",
-      "importComponent": "import CategorySecurityIdentityCompliance from 'aws-react-icons/icons/CategorySecurityIdentityCompliance';",
+      "name": "CategorySecurityIdentity",
+      "component": "CategorySecurityIdentity",
+      "importComponent": "import CategorySecurityIdentity from 'aws-react-icons/icons/CategorySecurityIdentity';",
       "categorys": [
         "Category",
-        "CategorySecurityIdentityCompliance"
+        "CategorySecurityIdentity"
       ]
     },
     {
@@ -3167,15 +3111,6 @@
       "name": "ResourceAmazonOpenSearchServiceUltraWarmNode",
       "component": "ResourceAmazonOpenSearchServiceUltraWarmNode",
       "importComponent": "import ResourceAmazonOpenSearchServiceUltraWarmNode from 'aws-react-icons/icons/ResourceAmazonOpenSearchServiceUltraWarmNode';",
-      "categorys": [
-        "Resource",
-        "Analytics"
-      ]
-    },
-    {
-      "name": "ResourceAmazonQuicksightPaginatedReports",
-      "component": "ResourceAmazonQuicksightPaginatedReports",
-      "importComponent": "import ResourceAmazonQuicksightPaginatedReports from 'aws-react-icons/icons/ResourceAmazonQuicksightPaginatedReports';",
       "categorys": [
         "Resource",
         "Analytics"
@@ -3772,7 +3707,7 @@
       "importComponent": "import ResourceAmazonAuroraAmazonAuroraInstancealternate from 'aws-react-icons/icons/ResourceAmazonAuroraAmazonAuroraInstancealternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3781,7 +3716,7 @@
       "importComponent": "import ResourceAmazonAuroraAmazonRDSInstance from 'aws-react-icons/icons/ResourceAmazonAuroraAmazonRDSInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3790,7 +3725,7 @@
       "importComponent": "import ResourceAmazonAuroraAmazonRDSInstanceAternate from 'aws-react-icons/icons/ResourceAmazonAuroraAmazonRDSInstanceAternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3799,7 +3734,7 @@
       "importComponent": "import ResourceAmazonAuroraInstance from 'aws-react-icons/icons/ResourceAmazonAuroraInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3808,7 +3743,7 @@
       "importComponent": "import ResourceAmazonAuroraMariaDBInstance from 'aws-react-icons/icons/ResourceAmazonAuroraMariaDBInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3817,7 +3752,7 @@
       "importComponent": "import ResourceAmazonAuroraMariaDBInstanceAlternate from 'aws-react-icons/icons/ResourceAmazonAuroraMariaDBInstanceAlternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3826,7 +3761,7 @@
       "importComponent": "import ResourceAmazonAuroraMySQLInstance from 'aws-react-icons/icons/ResourceAmazonAuroraMySQLInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3835,7 +3770,7 @@
       "importComponent": "import ResourceAmazonAuroraMySQLInstanceAlternate from 'aws-react-icons/icons/ResourceAmazonAuroraMySQLInstanceAlternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3844,7 +3779,7 @@
       "importComponent": "import ResourceAmazonAuroraOracleInstance from 'aws-react-icons/icons/ResourceAmazonAuroraOracleInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3853,7 +3788,7 @@
       "importComponent": "import ResourceAmazonAuroraOracleInstanceAlternate from 'aws-react-icons/icons/ResourceAmazonAuroraOracleInstanceAlternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3862,7 +3797,7 @@
       "importComponent": "import ResourceAmazonAuroraPIOPSInstance from 'aws-react-icons/icons/ResourceAmazonAuroraPIOPSInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3871,7 +3806,7 @@
       "importComponent": "import ResourceAmazonAuroraPostgreSQLInstance from 'aws-react-icons/icons/ResourceAmazonAuroraPostgreSQLInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3880,7 +3815,7 @@
       "importComponent": "import ResourceAmazonAuroraPostgreSQLInstanceAlternate from 'aws-react-icons/icons/ResourceAmazonAuroraPostgreSQLInstanceAlternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3889,7 +3824,7 @@
       "importComponent": "import ResourceAmazonAuroraSQLServerInstance from 'aws-react-icons/icons/ResourceAmazonAuroraSQLServerInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3898,7 +3833,7 @@
       "importComponent": "import ResourceAmazonAuroraSQLServerInstanceAlternate from 'aws-react-icons/icons/ResourceAmazonAuroraSQLServerInstanceAlternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3907,7 +3842,7 @@
       "importComponent": "import ResourceAmazonAuroraTrustedLanguageExtensionsforPostgreSQL from 'aws-react-icons/icons/ResourceAmazonAuroraTrustedLanguageExtensionsforPostgreSQL';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3916,7 +3851,7 @@
       "importComponent": "import ResourceAmazonDocumentDBElasticClusters from 'aws-react-icons/icons/ResourceAmazonDocumentDBElasticClusters';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3925,7 +3860,7 @@
       "importComponent": "import ResourceAmazonDynamoDBAmazonDynamoDBAccelerator from 'aws-react-icons/icons/ResourceAmazonDynamoDBAmazonDynamoDBAccelerator';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3934,7 +3869,7 @@
       "importComponent": "import ResourceAmazonDynamoDBAttribute from 'aws-react-icons/icons/ResourceAmazonDynamoDBAttribute';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3943,7 +3878,7 @@
       "importComponent": "import ResourceAmazonDynamoDBAttributes from 'aws-react-icons/icons/ResourceAmazonDynamoDBAttributes';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3952,7 +3887,7 @@
       "importComponent": "import ResourceAmazonDynamoDBGlobalsecondaryindex from 'aws-react-icons/icons/ResourceAmazonDynamoDBGlobalsecondaryindex';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3961,7 +3896,7 @@
       "importComponent": "import ResourceAmazonDynamoDBItem from 'aws-react-icons/icons/ResourceAmazonDynamoDBItem';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3970,7 +3905,7 @@
       "importComponent": "import ResourceAmazonDynamoDBItems from 'aws-react-icons/icons/ResourceAmazonDynamoDBItems';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3979,7 +3914,7 @@
       "importComponent": "import ResourceAmazonDynamoDBStandardAccessTableClass from 'aws-react-icons/icons/ResourceAmazonDynamoDBStandardAccessTableClass';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3988,7 +3923,7 @@
       "importComponent": "import ResourceAmazonDynamoDBStandardInfrequentAccessTableClass from 'aws-react-icons/icons/ResourceAmazonDynamoDBStandardInfrequentAccessTableClass';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -3997,7 +3932,7 @@
       "importComponent": "import ResourceAmazonDynamoDBStream from 'aws-react-icons/icons/ResourceAmazonDynamoDBStream';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4006,7 +3941,7 @@
       "importComponent": "import ResourceAmazonDynamoDBTable from 'aws-react-icons/icons/ResourceAmazonDynamoDBTable';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4015,7 +3950,7 @@
       "importComponent": "import ResourceAmazonElastiCacheCacheNode from 'aws-react-icons/icons/ResourceAmazonElastiCacheCacheNode';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4024,7 +3959,7 @@
       "importComponent": "import ResourceAmazonElastiCacheElastiCacheforMemcached from 'aws-react-icons/icons/ResourceAmazonElastiCacheElastiCacheforMemcached';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4033,7 +3968,7 @@
       "importComponent": "import ResourceAmazonElastiCacheElastiCacheforRedis from 'aws-react-icons/icons/ResourceAmazonElastiCacheElastiCacheforRedis';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4042,7 +3977,7 @@
       "importComponent": "import ResourceAmazonElastiCacheElastiCacheforValkey from 'aws-react-icons/icons/ResourceAmazonElastiCacheElastiCacheforValkey';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4051,7 +3986,7 @@
       "importComponent": "import ResourceAmazonRDSBlueGreenDeployments from 'aws-react-icons/icons/ResourceAmazonRDSBlueGreenDeployments';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4060,7 +3995,7 @@
       "importComponent": "import ResourceAmazonRDSMultiAZ from 'aws-react-icons/icons/ResourceAmazonRDSMultiAZ';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4069,7 +4004,7 @@
       "importComponent": "import ResourceAmazonRDSMultiAZDBCluster from 'aws-react-icons/icons/ResourceAmazonRDSMultiAZDBCluster';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4078,7 +4013,7 @@
       "importComponent": "import ResourceAmazonRDSOptimizedWrites from 'aws-react-icons/icons/ResourceAmazonRDSOptimizedWrites';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4087,7 +4022,7 @@
       "importComponent": "import ResourceAmazonRDSProxyInstance from 'aws-react-icons/icons/ResourceAmazonRDSProxyInstance';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4096,7 +4031,7 @@
       "importComponent": "import ResourceAmazonRDSProxyInstanceAlternate from 'aws-react-icons/icons/ResourceAmazonRDSProxyInstanceAlternate';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4105,7 +4040,7 @@
       "importComponent": "import ResourceAmazonRDSTrustedLanguageExtensionsforPostgreSQL from 'aws-react-icons/icons/ResourceAmazonRDSTrustedLanguageExtensionsforPostgreSQL';",
       "categorys": [
         "Resource",
-        "Database"
+        "Databases"
       ]
     },
     {
@@ -4114,7 +4049,7 @@
       "importComponent": "import ResourceAWSDatabaseMigrationServiceDatabasemigrationworkfloworjob from 'aws-react-icons/icons/ResourceAWSDatabaseMigrationServiceDatabasemigrationworkfloworjob';",
       "categorys": [
         "Resource",
-        "Database",
+        "Databases",
         "DMS"
       ]
     },
@@ -4125,33 +4060,6 @@
       "categorys": [
         "Resource",
         "Developer Tools"
-      ]
-    },
-    {
-      "name": "ResourceAmazonWorkSpacesFamilyAmazonWorkSpaces",
-      "component": "ResourceAmazonWorkSpacesFamilyAmazonWorkSpaces",
-      "importComponent": "import ResourceAmazonWorkSpacesFamilyAmazonWorkSpaces from 'aws-react-icons/icons/ResourceAmazonWorkSpacesFamilyAmazonWorkSpaces';",
-      "categorys": [
-        "Resource",
-        "End User Computing"
-      ]
-    },
-    {
-      "name": "ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesCore",
-      "component": "ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesCore",
-      "importComponent": "import ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesCore from 'aws-react-icons/icons/ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesCore';",
-      "categorys": [
-        "Resource",
-        "End User Computing"
-      ]
-    },
-    {
-      "name": "ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser",
-      "component": "ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser",
-      "importComponent": "import ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser from 'aws-react-icons/icons/ResourceAmazonWorkSpacesFamilyAmazonWorkSpacesSecureBrowser';",
-      "categorys": [
-        "Resource",
-        "End User Computing"
       ]
     },
     {
@@ -4671,51 +4579,6 @@
       "name": "ResourceAWSIoTAlexaVoiceService",
       "component": "ResourceAWSIoTAlexaVoiceService",
       "importComponent": "import ResourceAWSIoTAlexaVoiceService from 'aws-react-icons/icons/ResourceAWSIoTAlexaVoiceService';",
-      "categorys": [
-        "Resource",
-        "IoT"
-      ]
-    },
-    {
-      "name": "ResourceAWSIoTAnalyticsChannel",
-      "component": "ResourceAWSIoTAnalyticsChannel",
-      "importComponent": "import ResourceAWSIoTAnalyticsChannel from 'aws-react-icons/icons/ResourceAWSIoTAnalyticsChannel';",
-      "categorys": [
-        "Resource",
-        "IoT"
-      ]
-    },
-    {
-      "name": "ResourceAWSIoTAnalyticsDataset",
-      "component": "ResourceAWSIoTAnalyticsDataset",
-      "importComponent": "import ResourceAWSIoTAnalyticsDataset from 'aws-react-icons/icons/ResourceAWSIoTAnalyticsDataset';",
-      "categorys": [
-        "Resource",
-        "IoT"
-      ]
-    },
-    {
-      "name": "ResourceAWSIoTAnalyticsDataStore",
-      "component": "ResourceAWSIoTAnalyticsDataStore",
-      "importComponent": "import ResourceAWSIoTAnalyticsDataStore from 'aws-react-icons/icons/ResourceAWSIoTAnalyticsDataStore';",
-      "categorys": [
-        "Resource",
-        "IoT"
-      ]
-    },
-    {
-      "name": "ResourceAWSIoTAnalyticsNotebook",
-      "component": "ResourceAWSIoTAnalyticsNotebook",
-      "importComponent": "import ResourceAWSIoTAnalyticsNotebook from 'aws-react-icons/icons/ResourceAWSIoTAnalyticsNotebook';",
-      "categorys": [
-        "Resource",
-        "IoT"
-      ]
-    },
-    {
-      "name": "ResourceAWSIoTAnalyticsPipeline",
-      "component": "ResourceAWSIoTAnalyticsPipeline",
-      "importComponent": "import ResourceAWSIoTAnalyticsPipeline from 'aws-react-icons/icons/ResourceAWSIoTAnalyticsPipeline';",
       "categorys": [
         "Resource",
         "IoT"
@@ -6428,7 +6291,7 @@
       "importComponent": "import ResourceAmazonInspectorAgent from 'aws-react-icons/icons/ResourceAmazonInspectorAgent';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6437,7 +6300,7 @@
       "importComponent": "import ResourceAWSCertificateManagerCertificateAuthority from 'aws-react-icons/icons/ResourceAWSCertificateManagerCertificateAuthority';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6446,7 +6309,7 @@
       "importComponent": "import ResourceAWSDirectoryServiceADConnector from 'aws-react-icons/icons/ResourceAWSDirectoryServiceADConnector';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6455,7 +6318,7 @@
       "importComponent": "import ResourceAWSDirectoryServiceAWSManagedMicrosoftAD from 'aws-react-icons/icons/ResourceAWSDirectoryServiceAWSManagedMicrosoftAD';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6464,7 +6327,7 @@
       "importComponent": "import ResourceAWSDirectoryServiceSimpleAD from 'aws-react-icons/icons/ResourceAWSDirectoryServiceSimpleAD';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6473,7 +6336,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementAddon from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementAddon';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6482,7 +6345,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementAWSSTS from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementAWSSTS';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6491,7 +6354,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementAWSSTSAlternate from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementAWSSTSAlternate';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6500,7 +6363,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementDataEncryptionKey from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementDataEncryptionKey';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6509,7 +6372,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementEncryptedData from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementEncryptedData';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6518,7 +6381,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementIAMAccessAnalyzer from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementIAMAccessAnalyzer';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6527,7 +6390,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementIAMRolesAnywhere from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementIAMRolesAnywhere';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6536,7 +6399,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementLongTermSecurityCredential from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementLongTermSecurityCredential';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6545,7 +6408,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementMFAToken from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementMFAToken';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6554,7 +6417,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementPermissions from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementPermissions';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6563,7 +6426,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementRole from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementRole';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6572,7 +6435,7 @@
       "importComponent": "import ResourceAWSIdentityAccessManagementTemporarySecurityCredential from 'aws-react-icons/icons/ResourceAWSIdentityAccessManagementTemporarySecurityCredential';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6581,7 +6444,7 @@
       "importComponent": "import ResourceAWSKeyManagementServiceExternalKeyStore from 'aws-react-icons/icons/ResourceAWSKeyManagementServiceExternalKeyStore';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6590,7 +6453,7 @@
       "importComponent": "import ResourceAWSNetworkFirewallEndpoints from 'aws-react-icons/icons/ResourceAWSNetworkFirewallEndpoints';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6599,7 +6462,7 @@
       "importComponent": "import ResourceAWSSecurityHubFinding from 'aws-react-icons/icons/ResourceAWSSecurityHubFinding';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6608,7 +6471,7 @@
       "importComponent": "import ResourceAWSShieldAWSShieldAdvanced from 'aws-react-icons/icons/ResourceAWSShieldAWSShieldAdvanced';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6617,7 +6480,7 @@
       "importComponent": "import ResourceAWSWAFBadBot from 'aws-react-icons/icons/ResourceAWSWAFBadBot';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6626,7 +6489,7 @@
       "importComponent": "import ResourceAWSWAFBot from 'aws-react-icons/icons/ResourceAWSWAFBot';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6635,7 +6498,7 @@
       "importComponent": "import ResourceAWSWAFBotControl from 'aws-react-icons/icons/ResourceAWSWAFBotControl';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6644,7 +6507,7 @@
       "importComponent": "import ResourceAWSWAFFilteringRule from 'aws-react-icons/icons/ResourceAWSWAFFilteringRule';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6653,7 +6516,7 @@
       "importComponent": "import ResourceAWSWAFLabels from 'aws-react-icons/icons/ResourceAWSWAFLabels';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6662,7 +6525,7 @@
       "importComponent": "import ResourceAWSWAFManagedRule from 'aws-react-icons/icons/ResourceAWSWAFManagedRule';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {
@@ -6671,7 +6534,7 @@
       "importComponent": "import ResourceAWSWAFRule from 'aws-react-icons/icons/ResourceAWSWAFRule';",
       "categorys": [
         "Resource",
-        "Security Identity Compliance"
+        "Security Identity"
       ]
     },
     {

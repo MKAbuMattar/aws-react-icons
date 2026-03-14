@@ -1,15 +1,15 @@
 <div align="center">
-  <a href="https://aws-icon.vercel.app/">
+  <a href="https://aws-icon.mkabumattar.com/react">
     <img src="https://raw.githubusercontent.com/MKAbuMattar/aws-react-icons/main/src/assets/aws-react-icons.svg" alt="AWS React Icons Logo" height="140" />
   </a>
 
   <h1>AWS React Icons</h1>
 
-<a href="https://aws-icon.vercel.app/">https://aws-icon.vercel.app/</a>
+<a href="https://aws-icon.mkabumattar.com/react">https://aws-icon.mkabumattar.com/react</a>
 
   <br/>
 
-  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version 07/31/2025</span></a></p>
+  <p>AWS React Icons, a React library for AWS icons based on the official AWS icon set (SVG) and built with TypeScript, Build from <a href="https://aws.amazon.com/architecture/icons/"><span>AWS Architecture Icons | Version 01/30/2026</span></a></p>
 </div>
 
 <div align="center">
