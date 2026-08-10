@@ -1,3 +1,8 @@
+> [!WARNING]
+> **This repository is archived.** Development moved to [MKAbuMattar/aws-icons](https://github.com/MKAbuMattar/aws-icons) — one monorepo publishing [`@aws-icons/*`](https://www.npmjs.com/org/aws-icons) packages for SVG, React, Preact, Vue, Solid, Svelte, Astro, Angular, Lit, Web Components, Alpine.js and htmx.
+>
+> This repo previously held the npm package `aws-react-icons` (now `@aws-icons/react`).
+
 <div align="center">
   <a href="https://aws-icon.mkabumattar.com/react">
     <img src="https://raw.githubusercontent.com/MKAbuMattar/aws-react-icons/main/src/assets/aws-react-icons.svg" alt="AWS React Icons Logo" height="140" />
