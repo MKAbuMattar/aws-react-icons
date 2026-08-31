@@ -559,6 +559,15 @@
       ]
     },
     {
+      "name": "ArchitectureServiceAWSElementalInference",
+      "component": "ArchitectureServiceAWSElementalInference",
+      "importComponent": "import ArchitectureServiceAWSElementalInference from 'aws-react-icons/icons/ArchitectureServiceAWSElementalInference';",
+      "categorys": [
+        "Architecture Service",
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "name": "ArchitectureServiceAWSHealthImaging",
       "component": "ArchitectureServiceAWSHealthImaging",
       "importComponent": "import ArchitectureServiceAWSHealthImaging from 'aws-react-icons/icons/ArchitectureServiceAWSHealthImaging';",
@@ -685,9 +694,9 @@
       ]
     },
     {
-      "name": "ArchitectureServiceAmazonQuickSuite",
-      "component": "ArchitectureServiceAmazonQuickSuite",
-      "importComponent": "import ArchitectureServiceAmazonQuickSuite from 'aws-react-icons/icons/ArchitectureServiceAmazonQuickSuite';",
+      "name": "ArchitectureServiceAmazonQuick",
+      "component": "ArchitectureServiceAmazonQuick",
+      "importComponent": "import ArchitectureServiceAmazonQuick from 'aws-react-icons/icons/ArchitectureServiceAmazonQuick';",
       "categorys": [
         "Architecture Service",
         "Business Applications"
@@ -1848,6 +1857,15 @@
       ]
     },
     {
+      "name": "ArchitectureServiceAWSSustainability",
+      "component": "ArchitectureServiceAWSSustainability",
+      "importComponent": "import ArchitectureServiceAWSSustainability from 'aws-react-icons/icons/ArchitectureServiceAWSSustainability';",
+      "categorys": [
+        "Architecture Service",
+        "Management Tools"
+      ]
+    },
+    {
       "name": "ArchitectureServiceAWSSystemsManager",
       "component": "ArchitectureServiceAWSSystemsManager",
       "importComponent": "import ArchitectureServiceAWSSystemsManager from 'aws-react-icons/icons/ArchitectureServiceAWSSystemsManager';",
@@ -2256,6 +2274,15 @@
       "name": "ArchitectureServiceAWSGlobalAccelerator",
       "component": "ArchitectureServiceAWSGlobalAccelerator",
       "importComponent": "import ArchitectureServiceAWSGlobalAccelerator from 'aws-react-icons/icons/ArchitectureServiceAWSGlobalAccelerator';",
+      "categorys": [
+        "Architecture Service",
+        "Networking Content Delivery"
+      ]
+    },
+    {
+      "name": "ArchitectureServiceAWSInterconnect",
+      "component": "ArchitectureServiceAWSInterconnect",
+      "importComponent": "import ArchitectureServiceAWSInterconnect from 'aws-react-icons/icons/ArchitectureServiceAWSInterconnect';",
       "categorys": [
         "Architecture Service",
         "Networking Content Delivery"
@@ -6748,6 +6775,15 @@
       "name": "ResourceAmazonSimpleStorageServiceS3ExpressOneZone",
       "component": "ResourceAmazonSimpleStorageServiceS3ExpressOneZone",
       "importComponent": "import ResourceAmazonSimpleStorageServiceS3ExpressOneZone from 'aws-react-icons/icons/ResourceAmazonSimpleStorageServiceS3ExpressOneZone';",
+      "categorys": [
+        "Resource",
+        "Storage"
+      ]
+    },
+    {
+      "name": "ResourceAmazonSimpleStorageServiceS3Files",
+      "component": "ResourceAmazonSimpleStorageServiceS3Files",
+      "importComponent": "import ResourceAmazonSimpleStorageServiceS3Files from 'aws-react-icons/icons/ResourceAmazonSimpleStorageServiceS3Files';",
       "categorys": [
         "Resource",
         "Storage"
